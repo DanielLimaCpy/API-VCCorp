@@ -35,6 +35,6 @@ plt.legend()
 plt.xticks(rotation=45)
 plt.tight_layout()
 
-# Salvar o gráfico como um arquivo de imagem (por exemplo, PNG) sem permitir alterações
-plt.savefig('notas_alunos_ciclos.png', bbox_inches='tight', pad_inches=0)
-plt.close()  # Fecha o gráfico para evitar sua exibição
+# Salvar o gráfico como um arquivo de imagem (por exemplo, PNG)
+plt.savefig('notas_alunos_ciclos.png')
+plt.show()
