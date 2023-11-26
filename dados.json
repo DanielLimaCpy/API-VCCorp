@@ -20,47 +20,288 @@
             ],
             "grupos": []
         },
-        "ra5644112": {
-            "ra": "ra5644112",
-            "nome": "AAA",
-            "idade": "22",
-            "email": "22@gmail.com",
-            "turmas": [],
+        "3": {
+            "ra": "2023003",
+            "nome": "Lucas Santos",
+            "idade": "19",
+            "email": "lucas.santos@example.com",
+            "turmas": [
+                "1"
+            ],
             "grupos": []
         },
-        "Ra4222": {
-            "ra": "Ra4222",
-            "nome": "AAAAA",
-            "idade": "20",
-            "email": "joao@email.com",
-            "turmas": [],
-            "grupos": []
-        },
-        "Ra9229": {
-            "ra": "Ra9229",
-            "nome": "BBBBBB",
-            "idade": "22",
-            "email": "maria@email.com",
-            "turmas": [],
-            "grupos": []
-        },
-        "Ra9000": {
-            "ra": "Ra9000",
-            "nome": "CCCCCC",
+        "4": {
+            "ra": "2023004",
+            "nome": "Julia Ferreira",
             "idade": "21",
-            "email": "pedro@email.com",
-            "turmas": [],
+            "email": "julia.ferreira@example.com",
+            "turmas": [
+                "1"
+            ],
             "grupos": []
         },
-        "Ra7018": {
-            "ra": "Ra7018",
-            "nome": "DDDDD",
-            "idade": "23",
-            "email": "ana@email.com",
-            "turmas": [],
+        "5": {
+            "ra": "2023005",
+            "nome": "Pedro Costa",
+            "idade": "20",
+            "email": "pedro.costa@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "6": {
+            "ra": "2023006",
+            "nome": "Fernanda Almeida",
+            "idade": "22",
+            "email": "fernanda.almeida@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "7": {
+            "ra": "2023007",
+            "nome": "Gustavo Lima",
+            "idade": "19",
+            "email": "gustavo.lima@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "8": {
+            "ra": "2023008",
+            "nome": "Camila Rodrigues",
+            "idade": "20",
+            "email": "camila.rodrigues@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "9": {
+            "ra": "2023009",
+            "nome": "Mateus Gomes",
+            "idade": "21",
+            "email": "mateus.gomes@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "10": {
+            "ra": "2023010",
+            "nome": "Isabela Sousa",
+            "idade": "18",
+            "email": "isabela.sousa@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "11": {
+            "ra": "2023011",
+            "nome": "Rafaela Martins",
+            "idade": "22",
+            "email": "rafaela.martins@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "12": {
+            "ra": "2023012",
+            "nome": "Gabriel Oliveira",
+            "idade": "20",
+            "email": "gabriel.oliveira@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "13": {
+            "ra": "2023013",
+            "nome": "Larissa Silva",
+            "idade": "19",
+            "email": "larissa.silva@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "14": {
+            "ra": "2023014",
+            "nome": "Felipe Costa",
+            "idade": "21",
+            "email": "felipe.costa@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "15": {
+            "ra": "2023015",
+            "nome": "Sophia Santos",
+            "idade": "20",
+            "email": "sophia.santos@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "16": {
+            "ra": "2023016",
+            "nome": "Enzo Almeida",
+            "idade": "22",
+            "email": "enzo.almeida@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "17": {
+            "ra": "2023017",
+            "nome": "Luiza Lima",
+            "idade": "19",
+            "email": "luiza.lima@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "18": {
+            "ra": "2023018",
+            "nome": "Daniel Rodrigues",
+            "idade": "20",
+            "email": "daniel.rodrigues@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "19": {
+            "ra": "2023019",
+            "nome": "Laura Gomes",
+            "idade": "21",
+            "email": "laura.gomes@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "20": {
+            "ra": "2023020",
+            "nome": "Lucas Oliveira",
+            "idade": "18",
+            "email": "lucas.oliveira@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "21": {
+            "ra": "2023021",
+            "nome": "Ana Sousa",
+            "idade": "22",
+            "email": "ana.sousa@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "22": {
+            "ra": "2023022",
+            "nome": "Pedro Martins",
+            "idade": "20",
+            "email": "pedro.martins@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "23": {
+            "ra": "2023023",
+            "nome": "Carolina Santos",
+            "idade": "19",
+            "email": "carolina.santos@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "24": {
+            "ra": "2023024",
+            "nome": "Guilherme Costa",
+            "idade": "21",
+            "email": "guilherme.costa@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "25": {
+            "ra": "2023025",
+            "nome": "Marina Lima",
+            "idade": "20",
+            "email": "marina.lima@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "26": {
+            "ra": "2023026",
+            "nome": "Matheus Rodrigues",
+            "idade": "22",
+            "email": "matheus.rodrigues@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "27": {
+            "ra": "2023027",
+            "nome": "Beatriz Gomes",
+            "idade": "19",
+            "email": "beatriz.gomes@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "28": {
+            "ra": "2023028",
+            "nome": "Arthur Oliveira",
+            "idade": "20",
+            "email": "arthur.oliveira@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "29": {
+            "ra": "2023029",
+            "nome": "Sophie Silva",
+            "idade": "21",
+            "email": "sophie.silva@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "30": {
+            "ra": "2023030",
+            "nome": "Raphael Martins",
+            "idade": "18",
+            "email": "raphael.martins@example.com",
+            "turmas": [
+                "1"
+            ],
             "grupos": []
         }
     },
+
     "turmas": {
         "1": {
             "id": "1",
@@ -83,8 +324,8 @@
                 }
             ]
         }
-    },
-    "ciclos": {
+        },
+        "ciclos": {
         "1": {
             "id": "1",
             "nome": "Prova 1",
@@ -99,8 +340,8 @@
             "data_de_fim": "2023-10-31",
             "peso_da_nota": "4"
         }
-    },
-    "grupos": {
+        },
+        "grupos": {
         "1": {
             "id": "1",
             "nome": "Grupo A",
@@ -109,8 +350,8 @@
                 "2"
             ]
         }
-    },
-    "notas": {
+        },
+        "notas": {
         "ID1": {
             "aluno_ra": "1",
             "ciclo_id": "1",
@@ -135,5 +376,5 @@
             "turma_id": "1",
             "score": 8.7
         }
-    }
-}
+        }
+        }
