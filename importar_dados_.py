@@ -51,5 +51,4 @@ def iniciar_importacao():
     nome_arquivo_excel = os.path.join(os.getcwd(), f"{nome_arquivo}.xlsx")  # Adiciona o caminho do diretório atual ao nome do arquivo
     excel_para_json(nome_arquivo_excel)
 
-# Executar a importação
-iniciar_importacao()
+

@@ -1,7 +1,7 @@
 import json
 from editar_grupos import editar_grupo
 from editar_alunos import editar_aluno 
-
+import random
 
 def carregar_dados():
     try:
@@ -25,7 +25,7 @@ def gerar_id_aleatorio():
 def func_cadastrar_grupos():
     dados = carregar_dados()
     while True:
-        grupo_id = gerar_id_aleatorio
+        grupo_id = gerar_id_aleatorio()
         if grupo_id in dados['grupos']:
             print('O ID já está cadastrado. O que deseja fazer?')
             opcao = input('1 - Criar um novo grupo\n2 - Editar os dados do grupo\n')

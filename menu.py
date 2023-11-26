@@ -10,7 +10,7 @@ from editar_grupos import editar_grupo
 from editar_ciclos import editar_ciclo  
 from editar_notas import editar_nota
 from media_final import calcular_media_ponderada
-#from importar_dados_ import iniciar_importacao
+from importar_dados_ import iniciar_importacao
 #from exportar_excel import exportar_para_excel
 
 def carregar_dados():
@@ -43,12 +43,12 @@ while True:
                     else:
                         print("\nO cadastro foi cancelado.")
                     break  
-               # elif menu_opcao3 == "2":
-                    #if iniciar_importacao():
-                      #  print("\nRetornando ao menu principal.")
-                    #else:
-                       # print("\nO cadastro foi cancelado.")
-                    #break  
+                elif menu_opcao3 == "2":
+                    if iniciar_importacao():
+                        print("\nRetornando ao menu principal.")
+                    else:
+                        print("\nO cadastro foi cancelado.")
+                    break  
                     
                 
 
