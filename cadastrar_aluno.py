@@ -1,5 +1,5 @@
 import json
-from editar_alunos import editar_aluno
+import random
 
 def carregar_dados_alunos():
     try:
@@ -13,7 +13,6 @@ def carregar_dados_alunos():
             "ciclos": {},
             "grupos": {},
             "notas": {}
-        
         }
     return dados_alunos
 
@@ -21,11 +20,20 @@ def carregar_dados_alunos():
 def ra_aluno_existe(ra, dados_alunos):
     return ra in dados_alunos['alunos']
 
+# Função para gerar um RA aleatório no formato especificado
+def gerar_ra_aleatorio():
+    ra_prefixo = "ra"
+    ra_numero_aleatorio = ''.join([str(random.randint(0, 9)) for _ in range(7)])
+    return f"{ra_prefixo}{ra_numero_aleatorio}"
+
+# Restante do seu código permanece inalterado
+
 # Função para registrar alunos
 def func_cadastrar_alunos():
     dados_alunos = carregar_dados_alunos()
     while True:
-        ra_aluno = input('Informe o RA do aluno a ser cadastrado: ')
+        # Aqui é gerado o RA aleatório
+        ra_aluno = gerar_ra_aleatorio()
 
         while True:
             nome_aluno = input('Qual nome do aluno a ser cadastrado? ')
@@ -57,6 +65,7 @@ def func_cadastrar_alunos():
             'turmas': [],
             'grupos': []
         }
+
 
         while True:
             # Exibir dados do aluno para confirmação e opções

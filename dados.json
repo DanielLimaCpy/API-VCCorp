@@ -2,7 +2,7 @@
     "alunos": {
         "1": {
             "ra": "2023001",
-            "nome": "João da Silva",
+            "nome": "Jo\u00c3\u00a3o da Silva",
             "idade": "18",
             "email": "joao.silva@example.com",
             "turmas": [
@@ -19,12 +19,20 @@
                 "1"
             ],
             "grupos": []
+        },
+        "ra5644112": {
+            "ra": "ra5644112",
+            "nome": "AAA",
+            "idade": "22",
+            "email": "22@gmail.com",
+            "turmas": [],
+            "grupos": []
         }
     },
     "turmas": {
         "1": {
             "id": "1",
-            "nome": "Turma de Matemática",
+            "nome": "Turma de Matem\u00c3\u00a1tica",
             "data_de_inicio": "2023-09-01",
             "ciclos": [
                 {
