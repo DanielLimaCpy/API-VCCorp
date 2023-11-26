@@ -17,11 +17,15 @@ def carregar_dados():
         }
     return dados
 
+def gerar_id_aleatorio():
+    id_prefixo = "g"
+    id_numero_aleatorio = ''.join([str(random.randint(0, 9)) for _ in range(7)])
+    return f"{id_prefixo}{id_numero_aleatorio}"
 
 def func_cadastrar_grupos():
     dados = carregar_dados()
     while True:
-        grupo_id = input('Informe o ID do grupo a ser cadastrado: ')
+        grupo_id = gerar_id_aleatorio
         if grupo_id in dados['grupos']:
             print('O ID já está cadastrado. O que deseja fazer?')
             opcao = input('1 - Criar um novo grupo\n2 - Editar os dados do grupo\n')
