@@ -12,6 +12,10 @@ from editar_notas import editar_nota
 from media_final import calcular_media_ponderada
 from importar_dados_ import iniciar_importacao
 #from exportar_excel import exportar_para_excel
+from grafico1 import grafico1funcao
+from grafico2 import grafico2funcao
+from grafico3 import grafico3funcao
+
 
 def carregar_dados():
     try:
@@ -30,7 +34,7 @@ def carregar_dados():
 while True:
     print("\n" * 2)
     print("Olá administrador!😊 Bem-vindo (a) ao sistema de informação da PBLTex!😄")
-    menu_opcao1 = input("O que você gostaria de acessar?\n1 - Alunos\n2 - Turmas\n3 - Grupos de Alunos\n4 - Ciclos\n5 - Notas\n6 - Sair\n")
+    menu_opcao1 = input("O que você gostaria de acessar?\n1 - Alunos\n2 - Turmas\n3 - Grupos de Alunos\n4 - Ciclos\n5 - Notas\n6 - Sair\n7 - Gráficos")
 
     if menu_opcao1 == "1":
         while True:  
@@ -134,7 +138,38 @@ while True:
             else:
                 print("Opção inválida. Tente novamente")
 
+    # ... (seu código anterior)
+
     elif menu_opcao1 == "6":
         break
+    elif menu_opcao1 == "7":
+        while True:
+            menu_opcao7 = input(''' Qual ação você quer fazer?
+                                A - Gráfico de Barras Agrupadas por Ciclo e Aluno:
+                                B - Gráfico de Linhas Temporais de Progressão do Desempenho:
+                                C - Gráfico de Dispersão de Relação entre Idade e Média Ponderada:
+                                0 - Voltar                            
+
+                                ''').strip().lower()
+            if menu_opcao7 == "a":
+                if grafico1funcao():
+                    print("\nRetornando ao menu principal.")
+                    break
+            elif menu_opcao7 == "b":
+                if grafico2funcao():
+                    print("\nRetornando ao menu principal.")
+                    break
+            elif menu_opcao7 == "c":
+                if grafico3funcao():
+                    print("\nRetornando ao menu principal.")
+                    break
+            elif menu_opcao7 == "0":
+                break
+            else:
+                print("Opção inválida. Tente novamente")
+
     else:
         print("Opção inválida.")
+        continue
+
+
