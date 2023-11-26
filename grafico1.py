@@ -1,6 +1,3 @@
-#Gráfico de Barras Agrupadas por Ciclo e Aluno:
-
-
 import matplotlib.pyplot as plt
 import json
 
@@ -27,7 +24,6 @@ def grafico1funcao():
         notas_por_aluno[aluno_nome].append((ciclo_nome, score))
 
     # Criar gráfico de barras das notas por aluno nos ciclos
-
     for aluno, notas_ciclos in notas_por_aluno.items():
         if notas_ciclos:  # Verificar se há notas para o aluno
             ciclos_aluno, scores_aluno = zip(*notas_ciclos)
