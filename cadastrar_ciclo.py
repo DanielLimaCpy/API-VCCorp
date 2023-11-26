@@ -1,6 +1,6 @@
 import json
 from editar_ciclos import editar_ciclo
-
+import random
 def carregar_dados():
     try:
         with open('dados.json', 'r') as arquivo_json:
@@ -18,6 +18,12 @@ def carregar_dados():
 # Função para verificar se um ciclo já existe nos dados
 def ciclo_existe(id_ciclo, dados):
     return id_ciclo in dados['ciclos']
+
+def gerar_id_aleatorio():
+    id_prefixo = "c"
+    id_numero_aleatorio = ''.join([str(random.randint(0, 9)) for _ in range(7)])
+    return f"{id_prefixo}{id_numero_aleatorio}"
+
 
 # Função para cadastrar ciclos
 def func_cadastrar_ciclos():
@@ -43,7 +49,7 @@ def func_cadastrar_ciclos():
         else:
             print('A turma ainda não possui ciclos vinculados.')
 
-        id_ciclo = input('Informe o ID do ciclo a ser cadastrado (0 para voltar): ')
+        id_ciclo = gerar_id_aleatorio()
 
         if id_ciclo == '0':
             break

@@ -27,6 +27,38 @@
             "email": "22@gmail.com",
             "turmas": [],
             "grupos": []
+        },
+        "Ra4222": {
+            "ra": "Ra4222",
+            "nome": "AAAAA",
+            "idade": "20",
+            "email": "joao@email.com",
+            "turmas": [],
+            "grupos": []
+        },
+        "Ra9229": {
+            "ra": "Ra9229",
+            "nome": "BBBBBB",
+            "idade": "22",
+            "email": "maria@email.com",
+            "turmas": [],
+            "grupos": []
+        },
+        "Ra9000": {
+            "ra": "Ra9000",
+            "nome": "CCCCCC",
+            "idade": "21",
+            "email": "pedro@email.com",
+            "turmas": [],
+            "grupos": []
+        },
+        "Ra7018": {
+            "ra": "Ra7018",
+            "nome": "DDDDD",
+            "idade": "23",
+            "email": "ana@email.com",
+            "turmas": [],
+            "grupos": []
         }
     },
     "turmas": {
