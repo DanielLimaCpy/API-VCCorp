@@ -1,0 +1,6079 @@
+{
+    "alunos": {
+        "1": {
+            "ra": "2023001",
+            "nome": "Jo\u00c3\u00a3o da Silva",
+            "idade": "18",
+            "email": "joao.silva@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "2": {
+            "ra": "2023002",
+            "nome": "Maria Oliveira",
+            "idade": "20",
+            "email": "maria.oliveira@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "3": {
+            "ra": "2023003",
+            "nome": "Lucas Santos",
+            "idade": "19",
+            "email": "lucas.santos@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "4": {
+            "ra": "2023004",
+            "nome": "Julia Ferreira",
+            "idade": "21",
+            "email": "julia.ferreira@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "5": {
+            "ra": "2023005",
+            "nome": "Pedro Costa",
+            "idade": "20",
+            "email": "pedro.costa@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "6": {
+            "ra": "2023006",
+            "nome": "Fernanda Almeida",
+            "idade": "22",
+            "email": "fernanda.almeida@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "7": {
+            "ra": "2023007",
+            "nome": "Gustavo Lima",
+            "idade": "19",
+            "email": "gustavo.lima@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "8": {
+            "ra": "2023008",
+            "nome": "Camila Rodrigues",
+            "idade": "20",
+            "email": "camila.rodrigues@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "9": {
+            "ra": "2023009",
+            "nome": "Mateus Gomes",
+            "idade": "21",
+            "email": "mateus.gomes@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "10": {
+            "ra": "2023010",
+            "nome": "Isabela Sousa",
+            "idade": "18",
+            "email": "isabela.sousa@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "11": {
+            "ra": "2023011",
+            "nome": "Rafaela Martins",
+            "idade": "22",
+            "email": "rafaela.martins@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "12": {
+            "ra": "2023012",
+            "nome": "Gabriel Oliveira",
+            "idade": "20",
+            "email": "gabriel.oliveira@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "13": {
+            "ra": "2023013",
+            "nome": "Larissa Silva",
+            "idade": "19",
+            "email": "larissa.silva@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "14": {
+            "ra": "2023014",
+            "nome": "Felipe Costa",
+            "idade": "21",
+            "email": "felipe.costa@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "15": {
+            "ra": "2023015",
+            "nome": "Sophia Santos",
+            "idade": "20",
+            "email": "sophia.santos@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "16": {
+            "ra": "2023016",
+            "nome": "Enzo Almeida",
+            "idade": "22",
+            "email": "enzo.almeida@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "17": {
+            "ra": "2023017",
+            "nome": "Luiza Lima",
+            "idade": "19",
+            "email": "luiza.lima@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "18": {
+            "ra": "2023018",
+            "nome": "Daniel Rodrigues",
+            "idade": "20",
+            "email": "daniel.rodrigues@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "19": {
+            "ra": "2023019",
+            "nome": "Laura Gomes",
+            "idade": "21",
+            "email": "laura.gomes@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "20": {
+            "ra": "2023020",
+            "nome": "Lucas Oliveira",
+            "idade": "18",
+            "email": "lucas.oliveira@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "21": {
+            "ra": "2023021",
+            "nome": "Ana Sousa",
+            "idade": "22",
+            "email": "ana.sousa@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "22": {
+            "ra": "2023022",
+            "nome": "Pedro Martins",
+            "idade": "20",
+            "email": "pedro.martins@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "23": {
+            "ra": "2023023",
+            "nome": "Carolina Santos",
+            "idade": "19",
+            "email": "carolina.santos@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "24": {
+            "ra": "2023024",
+            "nome": "Guilherme Costa",
+            "idade": "21",
+            "email": "guilherme.costa@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "25": {
+            "ra": "2023025",
+            "nome": "Marina Lima",
+            "idade": "20",
+            "email": "marina.lima@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "26": {
+            "ra": "2023026",
+            "nome": "Matheus Rodrigues",
+            "idade": "22",
+            "email": "matheus.rodrigues@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "27": {
+            "ra": "2023027",
+            "nome": "Beatriz Gomes",
+            "idade": "19",
+            "email": "beatriz.gomes@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "28": {
+            "ra": "2023028",
+            "nome": "Arthur Oliveira",
+            "idade": "20",
+            "email": "arthur.oliveira@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "29": {
+            "ra": "2023029",
+            "nome": "Sophie Silva",
+            "idade": "21",
+            "email": "sophie.silva@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        },
+        "30": {
+            "ra": "2023030",
+            "nome": "Raphael Martins",
+            "idade": "18",
+            "email": "raphael.martins@example.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        }
+    },
+    "turmas": {
+        "1": {
+            "id": "1",
+            "nome": "Turma de Matem\u00c3\u00a1tica",
+            "data_de_inicio": "2023-09-01",
+            "ciclos": [
+                {
+                    "id": "1",
+                    "nome": "Prova 1",
+                    "data_de_inicio": "2023-09-01",
+                    "data_de_fim": "2023-09-30",
+                    "peso_da_nota": "3"
+                },
+                {
+                    "id": "2",
+                    "nome": "Prova 2",
+                    "data_de_inicio": "2023-10-01",
+                    "data_de_fim": "2023-10-31",
+                    "peso_da_nota": "4"
+                }
+            ]
+        },
+        "2": {
+            "id": "T0000001",
+            "nome": "Turma 1",
+            "data_de_inicio": "2023-02-01",
+            "ciclos": [
+                "3"
+            ]
+        },
+        "3": {
+            "id": "T0000002",
+            "nome": "Turma 2",
+            "data_de_inicio": "2023-03-01",
+            "ciclos": [
+                "4"
+            ]
+        },
+        "4": {
+            "id": "T0000003",
+            "nome": "Turma 3",
+            "data_de_inicio": "2023-04-01",
+            "ciclos": [
+                "5"
+            ]
+        },
+        "5": {
+            "id": "T0000004",
+            "nome": "Turma 4",
+            "data_de_inicio": "2023-05-01",
+            "ciclos": [
+                "6"
+            ]
+        },
+        "6": {
+            "id": "T0000005",
+            "nome": "Turma 5",
+            "data_de_inicio": "2023-06-01",
+            "ciclos": [
+                "7"
+            ]
+        },
+        "7": {
+            "id": "T0000006",
+            "nome": "Turma 6",
+            "data_de_inicio": "2023-07-01",
+            "ciclos": [
+                "8"
+            ]
+        },
+        "8": {
+            "id": "T0000007",
+            "nome": "Turma 7",
+            "data_de_inicio": "2023-08-01",
+            "ciclos": [
+                "9"
+            ]
+        },
+        "9": {
+            "id": "T0000008",
+            "nome": "Turma 8",
+            "data_de_inicio": "2023-09-01",
+            "ciclos": [
+                "10"
+            ]
+        },
+        "10": {
+            "id": "T0000009",
+            "nome": "Turma 9",
+            "data_de_inicio": "2023-10-01",
+            "ciclos": [
+                "11"
+            ]
+        },
+        "11": {
+            "id": "T0000010",
+            "nome": "Turma 10",
+            "data_de_inicio": "2023-11-01",
+            "ciclos": [
+                "12"
+            ]
+        },
+        "12": {
+            "id": "T0000011",
+            "nome": "Turma 11",
+            "data_de_inicio": "2023-12-01",
+            "ciclos": [
+                "13"
+            ]
+        },
+        "13": {
+            "id": "T0000012",
+            "nome": "Turma 12",
+            "data_de_inicio": "2023-01-01",
+            "ciclos": [
+                "14"
+            ]
+        },
+        "14": {
+            "id": "T0000013",
+            "nome": "Turma 13",
+            "data_de_inicio": "2023-02-01",
+            "ciclos": [
+                "15"
+            ]
+        },
+        "15": {
+            "id": "T0000014",
+            "nome": "Turma 14",
+            "data_de_inicio": "2023-03-01",
+            "ciclos": [
+                "16"
+            ]
+        },
+        "16": {
+            "id": "T0000015",
+            "nome": "Turma 15",
+            "data_de_inicio": "2023-04-01",
+            "ciclos": [
+                "17"
+            ]
+        },
+        "17": {
+            "id": "T0000016",
+            "nome": "Turma 16",
+            "data_de_inicio": "2023-05-01",
+            "ciclos": [
+                "18"
+            ]
+        },
+        "18": {
+            "id": "T0000017",
+            "nome": "Turma 17",
+            "data_de_inicio": "2023-06-01",
+            "ciclos": [
+                "19"
+            ]
+        },
+        "19": {
+            "id": "T0000018",
+            "nome": "Turma 18",
+            "data_de_inicio": "2023-07-01",
+            "ciclos": [
+                "20"
+            ]
+        },
+        "20": {
+            "id": "T0000019",
+            "nome": "Turma 19",
+            "data_de_inicio": "2023-08-01",
+            "ciclos": [
+                "21"
+            ]
+        },
+        "21": {
+            "id": "T0000020",
+            "nome": "Turma 20",
+            "data_de_inicio": "2023-09-01",
+            "ciclos": [
+                "22"
+            ]
+        },
+        "22": {
+            "id": "T0000021",
+            "nome": "Turma 21",
+            "data_de_inicio": "2023-10-01",
+            "ciclos": [
+                "23"
+            ]
+        },
+        "23": {
+            "id": "T0000022",
+            "nome": "Turma 22",
+            "data_de_inicio": "2023-11-01",
+            "ciclos": [
+                "24"
+            ]
+        },
+        "24": {
+            "id": "T0000023",
+            "nome": "Turma 23",
+            "data_de_inicio": "2023-12-01",
+            "ciclos": [
+                "25"
+            ]
+        },
+        "25": {
+            "id": "T0000024",
+            "nome": "Turma 24",
+            "data_de_inicio": "2023-01-01",
+            "ciclos": [
+                "26"
+            ]
+        },
+        "26": {
+            "id": "T0000025",
+            "nome": "Turma 25",
+            "data_de_inicio": "2023-02-01",
+            "ciclos": [
+                "27"
+            ]
+        },
+        "27": {
+            "id": "T0000026",
+            "nome": "Turma 26",
+            "data_de_inicio": "2023-03-01",
+            "ciclos": [
+                "28"
+            ]
+        },
+        "28": {
+            "id": "T0000027",
+            "nome": "Turma 27",
+            "data_de_inicio": "2023-04-01",
+            "ciclos": [
+                "29"
+            ]
+        },
+        "29": {
+            "id": "T0000028",
+            "nome": "Turma 28",
+            "data_de_inicio": "2023-05-01",
+            "ciclos": [
+                "30"
+            ]
+        },
+        "30": {
+            "id": "T0000029",
+            "nome": "Turma 29",
+            "data_de_inicio": "2023-06-01",
+            "ciclos": [
+                "31"
+            ]
+        },
+        "31": {
+            "id": "T0000030",
+            "nome": "Turma 30",
+            "data_de_inicio": "2023-07-01",
+            "ciclos": [
+                "32"
+            ]
+        },
+        "32": {
+            "id": "T0000031",
+            "nome": "Turma 31",
+            "data_de_inicio": "2023-08-01",
+            "ciclos": [
+                "33"
+            ]
+        },
+        "33": {
+            "id": "T0000032",
+            "nome": "Turma 32",
+            "data_de_inicio": "2023-09-01",
+            "ciclos": [
+                "34"
+            ]
+        },
+        "34": {
+            "id": "T0000033",
+            "nome": "Turma 33",
+            "data_de_inicio": "2023-10-01",
+            "ciclos": [
+                "35"
+            ]
+        },
+        "35": {
+            "id": "T0000034",
+            "nome": "Turma 34",
+            "data_de_inicio": "2023-11-01",
+            "ciclos": [
+                "36"
+            ]
+        },
+        "36": {
+            "id": "T0000035",
+            "nome": "Turma 35",
+            "data_de_inicio": "2023-12-01",
+            "ciclos": [
+                "37"
+            ]
+        },
+        "37": {
+            "id": "T0000036",
+            "nome": "Turma 36",
+            "data_de_inicio": "2023-01-01",
+            "ciclos": [
+                "38"
+            ]
+        },
+        "38": {
+            "id": "T0000037",
+            "nome": "Turma 37",
+            "data_de_inicio": "2023-02-01",
+            "ciclos": [
+                "39"
+            ]
+        },
+        "39": {
+            "id": "T0000038",
+            "nome": "Turma 38",
+            "data_de_inicio": "2023-03-01",
+            "ciclos": [
+                "40"
+            ]
+        },
+        "40": {
+            "id": "T0000039",
+            "nome": "Turma 39",
+            "data_de_inicio": "2023-04-01",
+            "ciclos": [
+                "41"
+            ]
+        },
+        "41": {
+            "id": "T0000040",
+            "nome": "Turma 40",
+            "data_de_inicio": "2023-05-01",
+            "ciclos": [
+                "42"
+            ]
+        },
+        "42": {
+            "id": "T0000041",
+            "nome": "Turma 41",
+            "data_de_inicio": "2023-06-01",
+            "ciclos": [
+                "43"
+            ]
+        },
+        "43": {
+            "id": "T0000042",
+            "nome": "Turma 42",
+            "data_de_inicio": "2023-07-01",
+            "ciclos": [
+                "44"
+            ]
+        },
+        "44": {
+            "id": "T0000043",
+            "nome": "Turma 43",
+            "data_de_inicio": "2023-08-01",
+            "ciclos": [
+                "45"
+            ]
+        },
+        "45": {
+            "id": "T0000044",
+            "nome": "Turma 44",
+            "data_de_inicio": "2023-09-01",
+            "ciclos": [
+                "46"
+            ]
+        },
+        "46": {
+            "id": "T0000045",
+            "nome": "Turma 45",
+            "data_de_inicio": "2023-10-01",
+            "ciclos": [
+                "47"
+            ]
+        },
+        "47": {
+            "id": "T0000046",
+            "nome": "Turma 46",
+            "data_de_inicio": "2023-11-01",
+            "ciclos": [
+                "48"
+            ]
+        },
+        "48": {
+            "id": "T0000047",
+            "nome": "Turma 47",
+            "data_de_inicio": "2023-12-01",
+            "ciclos": [
+                "49"
+            ]
+        },
+        "49": {
+            "id": "T0000048",
+            "nome": "Turma 48",
+            "data_de_inicio": "2023-01-01",
+            "ciclos": [
+                "50"
+            ]
+        },
+        "50": {
+            "id": "T0000049",
+            "nome": "Turma 49",
+            "data_de_inicio": "2023-02-01",
+            "ciclos": [
+                "51"
+            ]
+        },
+        "51": {
+            "id": "T0000050",
+            "nome": "Turma 50",
+            "data_de_inicio": "2023-03-01",
+            "ciclos": [
+                "52"
+            ]
+        },
+        "52": {
+            "id": "T0000051",
+            "nome": "Turma 51",
+            "data_de_inicio": "2023-04-01",
+            "ciclos": [
+                "53"
+            ]
+        },
+        "53": {
+            "id": "T0000052",
+            "nome": "Turma 52",
+            "data_de_inicio": "2023-05-01",
+            "ciclos": [
+                "54"
+            ]
+        },
+        "54": {
+            "id": "T0000053",
+            "nome": "Turma 53",
+            "data_de_inicio": "2023-06-01",
+            "ciclos": [
+                "55"
+            ]
+        },
+        "55": {
+            "id": "T0000054",
+            "nome": "Turma 54",
+            "data_de_inicio": "2023-07-01",
+            "ciclos": [
+                "56"
+            ]
+        },
+        "56": {
+            "id": "T0000055",
+            "nome": "Turma 55",
+            "data_de_inicio": "2023-08-01",
+            "ciclos": [
+                "57"
+            ]
+        },
+        "57": {
+            "id": "T0000056",
+            "nome": "Turma 56",
+            "data_de_inicio": "2023-09-01",
+            "ciclos": [
+                "58"
+            ]
+        },
+        "58": {
+            "id": "T0000057",
+            "nome": "Turma 57",
+            "data_de_inicio": "2023-10-01",
+            "ciclos": [
+                "59"
+            ]
+        },
+        "59": {
+            "id": "T0000058",
+            "nome": "Turma 58",
+            "data_de_inicio": "2023-11-01",
+            "ciclos": [
+                "60"
+            ]
+        },
+        "60": {
+            "id": "T0000059",
+            "nome": "Turma 59",
+            "data_de_inicio": "2023-12-01",
+            "ciclos": [
+                "61"
+            ]
+        },
+        "61": {
+            "id": "T0000060",
+            "nome": "Turma 60",
+            "data_de_inicio": "2023-01-01",
+            "ciclos": [
+                "62"
+            ]
+        },
+        "62": {
+            "id": "T0000061",
+            "nome": "Turma 61",
+            "data_de_inicio": "2023-02-01",
+            "ciclos": [
+                "63"
+            ]
+        },
+        "63": {
+            "id": "T0000062",
+            "nome": "Turma 62",
+            "data_de_inicio": "2023-03-01",
+            "ciclos": [
+                "64"
+            ]
+        },
+        "64": {
+            "id": "T0000063",
+            "nome": "Turma 63",
+            "data_de_inicio": "2023-04-01",
+            "ciclos": [
+                "65"
+            ]
+        },
+        "65": {
+            "id": "T0000064",
+            "nome": "Turma 64",
+            "data_de_inicio": "2023-05-01",
+            "ciclos": [
+                "66"
+            ]
+        },
+        "66": {
+            "id": "T0000065",
+            "nome": "Turma 65",
+            "data_de_inicio": "2023-06-01",
+            "ciclos": [
+                "67"
+            ]
+        },
+        "67": {
+            "id": "T0000066",
+            "nome": "Turma 66",
+            "data_de_inicio": "2023-07-01",
+            "ciclos": [
+                "68"
+            ]
+        },
+        "68": {
+            "id": "T0000067",
+            "nome": "Turma 67",
+            "data_de_inicio": "2023-08-01",
+            "ciclos": [
+                "69"
+            ]
+        },
+        "69": {
+            "id": "T0000068",
+            "nome": "Turma 68",
+            "data_de_inicio": "2023-09-01",
+            "ciclos": [
+                "70"
+            ]
+        },
+        "70": {
+            "id": "T0000069",
+            "nome": "Turma 69",
+            "data_de_inicio": "2023-10-01",
+            "ciclos": [
+                "71"
+            ]
+        },
+        "71": {
+            "id": "T0000070",
+            "nome": "Turma 70",
+            "data_de_inicio": "2023-11-01",
+            "ciclos": [
+                "72"
+            ]
+        },
+        "72": {
+            "id": "T0000071",
+            "nome": "Turma 71",
+            "data_de_inicio": "2023-12-01",
+            "ciclos": [
+                "73"
+            ]
+        },
+        "73": {
+            "id": "T0000072",
+            "nome": "Turma 72",
+            "data_de_inicio": "2023-01-01",
+            "ciclos": [
+                "74"
+            ]
+        },
+        "74": {
+            "id": "T0000073",
+            "nome": "Turma 73",
+            "data_de_inicio": "2023-02-01",
+            "ciclos": [
+                "75"
+            ]
+        },
+        "75": {
+            "id": "T0000074",
+            "nome": "Turma 74",
+            "data_de_inicio": "2023-03-01",
+            "ciclos": [
+                "76"
+            ]
+        },
+        "76": {
+            "id": "T0000075",
+            "nome": "Turma 75",
+            "data_de_inicio": "2023-04-01",
+            "ciclos": [
+                "77"
+            ]
+        },
+        "77": {
+            "id": "T0000076",
+            "nome": "Turma 76",
+            "data_de_inicio": "2023-05-01",
+            "ciclos": [
+                "78"
+            ]
+        },
+        "78": {
+            "id": "T0000077",
+            "nome": "Turma 77",
+            "data_de_inicio": "2023-06-01",
+            "ciclos": [
+                "79"
+            ]
+        },
+        "79": {
+            "id": "T0000078",
+            "nome": "Turma 78",
+            "data_de_inicio": "2023-07-01",
+            "ciclos": [
+                "80"
+            ]
+        },
+        "80": {
+            "id": "T0000079",
+            "nome": "Turma 79",
+            "data_de_inicio": "2023-08-01",
+            "ciclos": [
+                "81"
+            ]
+        },
+        "81": {
+            "id": "T0000080",
+            "nome": "Turma 80",
+            "data_de_inicio": "2023-09-01",
+            "ciclos": [
+                "82"
+            ]
+        },
+        "82": {
+            "id": "T0000081",
+            "nome": "Turma 81",
+            "data_de_inicio": "2023-10-01",
+            "ciclos": [
+                "83"
+            ]
+        },
+        "83": {
+            "id": "T0000082",
+            "nome": "Turma 82",
+            "data_de_inicio": "2023-11-01",
+            "ciclos": [
+                "84"
+            ]
+        },
+        "84": {
+            "id": "T0000083",
+            "nome": "Turma 83",
+            "data_de_inicio": "2023-12-01",
+            "ciclos": [
+                "85"
+            ]
+        },
+        "85": {
+            "id": "T0000084",
+            "nome": "Turma 84",
+            "data_de_inicio": "2023-01-01",
+            "ciclos": [
+                "86"
+            ]
+        },
+        "86": {
+            "id": "T0000085",
+            "nome": "Turma 85",
+            "data_de_inicio": "2023-02-01",
+            "ciclos": [
+                "87"
+            ]
+        },
+        "87": {
+            "id": "T0000086",
+            "nome": "Turma 86",
+            "data_de_inicio": "2023-03-01",
+            "ciclos": [
+                "88"
+            ]
+        },
+        "88": {
+            "id": "T0000087",
+            "nome": "Turma 87",
+            "data_de_inicio": "2023-04-01",
+            "ciclos": [
+                "89"
+            ]
+        },
+        "89": {
+            "id": "T0000088",
+            "nome": "Turma 88",
+            "data_de_inicio": "2023-05-01",
+            "ciclos": [
+                "90"
+            ]
+        },
+        "90": {
+            "id": "T0000089",
+            "nome": "Turma 89",
+            "data_de_inicio": "2023-06-01",
+            "ciclos": [
+                "91"
+            ]
+        },
+        "91": {
+            "id": "T0000090",
+            "nome": "Turma 90",
+            "data_de_inicio": "2023-07-01",
+            "ciclos": [
+                "92"
+            ]
+        },
+        "92": {
+            "id": "T0000091",
+            "nome": "Turma 91",
+            "data_de_inicio": "2023-08-01",
+            "ciclos": [
+                "93"
+            ]
+        },
+        "93": {
+            "id": "T0000092",
+            "nome": "Turma 92",
+            "data_de_inicio": "2023-09-01",
+            "ciclos": [
+                "94"
+            ]
+        },
+        "94": {
+            "id": "T0000093",
+            "nome": "Turma 93",
+            "data_de_inicio": "2023-10-01",
+            "ciclos": [
+                "95"
+            ]
+        },
+        "95": {
+            "id": "T0000094",
+            "nome": "Turma 94",
+            "data_de_inicio": "2023-11-01",
+            "ciclos": [
+                "96"
+            ]
+        },
+        "96": {
+            "id": "T0000095",
+            "nome": "Turma 95",
+            "data_de_inicio": "2023-12-01",
+            "ciclos": [
+                "97"
+            ]
+        },
+        "97": {
+            "id": "T0000096",
+            "nome": "Turma 96",
+            "data_de_inicio": "2023-01-01",
+            "ciclos": [
+                "98"
+            ]
+        },
+        "98": {
+            "id": "T0000097",
+            "nome": "Turma 97",
+            "data_de_inicio": "2023-02-01",
+            "ciclos": [
+                "99"
+            ]
+        },
+        "99": {
+            "id": "T0000098",
+            "nome": "Turma 98",
+            "data_de_inicio": "2023-03-01",
+            "ciclos": [
+                "100"
+            ]
+        },
+        "100": {
+            "id": "T0000099",
+            "nome": "Turma 99",
+            "data_de_inicio": "2023-04-01",
+            "ciclos": [
+                "101"
+            ]
+        },
+        "101": {
+            "id": "T0000100",
+            "nome": "Turma 100",
+            "data_de_inicio": "2023-05-01",
+            "ciclos": [
+                "102"
+            ]
+        }
+    },
+    "ciclos": {
+        "1": {
+            "id": "1",
+            "nome": "Prova 1",
+            "data_de_inicio": "2023-09-01",
+            "data_de_fim": "2023-09-30",
+            "peso_da_nota": "3"
+        },
+        "2": {
+            "id": "2",
+            "nome": "Prova 2",
+            "data_de_inicio": "2023-10-01",
+            "data_de_fim": "2023-10-31",
+            "peso_da_nota": "4"
+        },
+        "3": {
+            "id": "C0000001",
+            "nome": "Prova 1",
+            "data_de_inicio": "2023-02-01",
+            "data_de_fim": "2023-02-28",
+            "peso_da_nota": "2"
+        },
+        "4": {
+            "id": "C0000002",
+            "nome": "Prova 2",
+            "data_de_inicio": "2023-03-01",
+            "data_de_fim": "2023-03-28",
+            "peso_da_nota": "5"
+        },
+        "5": {
+            "id": "C0000003",
+            "nome": "Prova 3",
+            "data_de_inicio": "2023-04-01",
+            "data_de_fim": "2023-04-28",
+            "peso_da_nota": "5"
+        },
+        "6": {
+            "id": "C0000004",
+            "nome": "Prova 4",
+            "data_de_inicio": "2023-05-01",
+            "data_de_fim": "2023-05-28",
+            "peso_da_nota": "5"
+        },
+        "7": {
+            "id": "C0000005",
+            "nome": "Prova 5",
+            "data_de_inicio": "2023-06-01",
+            "data_de_fim": "2023-06-28",
+            "peso_da_nota": "5"
+        },
+        "8": {
+            "id": "C0000006",
+            "nome": "Prova 6",
+            "data_de_inicio": "2023-07-01",
+            "data_de_fim": "2023-07-28",
+            "peso_da_nota": "3"
+        },
+        "9": {
+            "id": "C0000007",
+            "nome": "Prova 7",
+            "data_de_inicio": "2023-08-01",
+            "data_de_fim": "2023-08-28",
+            "peso_da_nota": "1"
+        },
+        "10": {
+            "id": "C0000008",
+            "nome": "Prova 8",
+            "data_de_inicio": "2023-09-01",
+            "data_de_fim": "2023-09-28",
+            "peso_da_nota": "5"
+        },
+        "11": {
+            "id": "C0000009",
+            "nome": "Prova 9",
+            "data_de_inicio": "2023-10-01",
+            "data_de_fim": "2023-10-28",
+            "peso_da_nota": "4"
+        },
+        "12": {
+            "id": "C0000010",
+            "nome": "Prova 10",
+            "data_de_inicio": "2023-11-01",
+            "data_de_fim": "2023-11-28",
+            "peso_da_nota": "4"
+        },
+        "13": {
+            "id": "C0000011",
+            "nome": "Prova 11",
+            "data_de_inicio": "2023-12-01",
+            "data_de_fim": "2023-12-28",
+            "peso_da_nota": "2"
+        },
+        "14": {
+            "id": "C0000012",
+            "nome": "Prova 12",
+            "data_de_inicio": "2023-01-01",
+            "data_de_fim": "2023-01-28",
+            "peso_da_nota": "4"
+        },
+        "15": {
+            "id": "C0000013",
+            "nome": "Prova 13",
+            "data_de_inicio": "2023-02-01",
+            "data_de_fim": "2023-02-28",
+            "peso_da_nota": "3"
+        },
+        "16": {
+            "id": "C0000014",
+            "nome": "Prova 14",
+            "data_de_inicio": "2023-03-01",
+            "data_de_fim": "2023-03-28",
+            "peso_da_nota": "2"
+        },
+        "17": {
+            "id": "C0000015",
+            "nome": "Prova 15",
+            "data_de_inicio": "2023-04-01",
+            "data_de_fim": "2023-04-28",
+            "peso_da_nota": "2"
+        },
+        "18": {
+            "id": "C0000016",
+            "nome": "Prova 16",
+            "data_de_inicio": "2023-05-01",
+            "data_de_fim": "2023-05-28",
+            "peso_da_nota": "2"
+        },
+        "19": {
+            "id": "C0000017",
+            "nome": "Prova 17",
+            "data_de_inicio": "2023-06-01",
+            "data_de_fim": "2023-06-28",
+            "peso_da_nota": "1"
+        },
+        "20": {
+            "id": "C0000018",
+            "nome": "Prova 18",
+            "data_de_inicio": "2023-07-01",
+            "data_de_fim": "2023-07-28",
+            "peso_da_nota": "3"
+        },
+        "21": {
+            "id": "C0000019",
+            "nome": "Prova 19",
+            "data_de_inicio": "2023-08-01",
+            "data_de_fim": "2023-08-28",
+            "peso_da_nota": "3"
+        },
+        "22": {
+            "id": "C0000020",
+            "nome": "Prova 20",
+            "data_de_inicio": "2023-09-01",
+            "data_de_fim": "2023-09-28",
+            "peso_da_nota": "4"
+        },
+        "23": {
+            "id": "C0000021",
+            "nome": "Prova 21",
+            "data_de_inicio": "2023-10-01",
+            "data_de_fim": "2023-10-28",
+            "peso_da_nota": "2"
+        },
+        "24": {
+            "id": "C0000022",
+            "nome": "Prova 22",
+            "data_de_inicio": "2023-11-01",
+            "data_de_fim": "2023-11-28",
+            "peso_da_nota": "4"
+        },
+        "25": {
+            "id": "C0000023",
+            "nome": "Prova 23",
+            "data_de_inicio": "2023-12-01",
+            "data_de_fim": "2023-12-28",
+            "peso_da_nota": "3"
+        },
+        "26": {
+            "id": "C0000024",
+            "nome": "Prova 24",
+            "data_de_inicio": "2023-01-01",
+            "data_de_fim": "2023-01-28",
+            "peso_da_nota": "4"
+        },
+        "27": {
+            "id": "C0000025",
+            "nome": "Prova 25",
+            "data_de_inicio": "2023-02-01",
+            "data_de_fim": "2023-02-28",
+            "peso_da_nota": "2"
+        },
+        "28": {
+            "id": "C0000026",
+            "nome": "Prova 26",
+            "data_de_inicio": "2023-03-01",
+            "data_de_fim": "2023-03-28",
+            "peso_da_nota": "3"
+        },
+        "29": {
+            "id": "C0000027",
+            "nome": "Prova 27",
+            "data_de_inicio": "2023-04-01",
+            "data_de_fim": "2023-04-28",
+            "peso_da_nota": "1"
+        },
+        "30": {
+            "id": "C0000028",
+            "nome": "Prova 28",
+            "data_de_inicio": "2023-05-01",
+            "data_de_fim": "2023-05-28",
+            "peso_da_nota": "5"
+        },
+        "31": {
+            "id": "C0000029",
+            "nome": "Prova 29",
+            "data_de_inicio": "2023-06-01",
+            "data_de_fim": "2023-06-28",
+            "peso_da_nota": "1"
+        },
+        "32": {
+            "id": "C0000030",
+            "nome": "Prova 30",
+            "data_de_inicio": "2023-07-01",
+            "data_de_fim": "2023-07-28",
+            "peso_da_nota": "2"
+        },
+        "33": {
+            "id": "C0000031",
+            "nome": "Prova 31",
+            "data_de_inicio": "2023-08-01",
+            "data_de_fim": "2023-08-28",
+            "peso_da_nota": "1"
+        },
+        "34": {
+            "id": "C0000032",
+            "nome": "Prova 32",
+            "data_de_inicio": "2023-09-01",
+            "data_de_fim": "2023-09-28",
+            "peso_da_nota": "4"
+        },
+        "35": {
+            "id": "C0000033",
+            "nome": "Prova 33",
+            "data_de_inicio": "2023-10-01",
+            "data_de_fim": "2023-10-28",
+            "peso_da_nota": "1"
+        },
+        "36": {
+            "id": "C0000034",
+            "nome": "Prova 34",
+            "data_de_inicio": "2023-11-01",
+            "data_de_fim": "2023-11-28",
+            "peso_da_nota": "3"
+        },
+        "37": {
+            "id": "C0000035",
+            "nome": "Prova 35",
+            "data_de_inicio": "2023-12-01",
+            "data_de_fim": "2023-12-28",
+            "peso_da_nota": "3"
+        },
+        "38": {
+            "id": "C0000036",
+            "nome": "Prova 36",
+            "data_de_inicio": "2023-01-01",
+            "data_de_fim": "2023-01-28",
+            "peso_da_nota": "3"
+        },
+        "39": {
+            "id": "C0000037",
+            "nome": "Prova 37",
+            "data_de_inicio": "2023-02-01",
+            "data_de_fim": "2023-02-28",
+            "peso_da_nota": "3"
+        },
+        "40": {
+            "id": "C0000038",
+            "nome": "Prova 38",
+            "data_de_inicio": "2023-03-01",
+            "data_de_fim": "2023-03-28",
+            "peso_da_nota": "4"
+        },
+        "41": {
+            "id": "C0000039",
+            "nome": "Prova 39",
+            "data_de_inicio": "2023-04-01",
+            "data_de_fim": "2023-04-28",
+            "peso_da_nota": "5"
+        },
+        "42": {
+            "id": "C0000040",
+            "nome": "Prova 40",
+            "data_de_inicio": "2023-05-01",
+            "data_de_fim": "2023-05-28",
+            "peso_da_nota": "1"
+        },
+        "43": {
+            "id": "C0000041",
+            "nome": "Prova 41",
+            "data_de_inicio": "2023-06-01",
+            "data_de_fim": "2023-06-28",
+            "peso_da_nota": "3"
+        },
+        "44": {
+            "id": "C0000042",
+            "nome": "Prova 42",
+            "data_de_inicio": "2023-07-01",
+            "data_de_fim": "2023-07-28",
+            "peso_da_nota": "5"
+        },
+        "45": {
+            "id": "C0000043",
+            "nome": "Prova 43",
+            "data_de_inicio": "2023-08-01",
+            "data_de_fim": "2023-08-28",
+            "peso_da_nota": "1"
+        },
+        "46": {
+            "id": "C0000044",
+            "nome": "Prova 44",
+            "data_de_inicio": "2023-09-01",
+            "data_de_fim": "2023-09-28",
+            "peso_da_nota": "2"
+        },
+        "47": {
+            "id": "C0000045",
+            "nome": "Prova 45",
+            "data_de_inicio": "2023-10-01",
+            "data_de_fim": "2023-10-28",
+            "peso_da_nota": "5"
+        },
+        "48": {
+            "id": "C0000046",
+            "nome": "Prova 46",
+            "data_de_inicio": "2023-11-01",
+            "data_de_fim": "2023-11-28",
+            "peso_da_nota": "5"
+        },
+        "49": {
+            "id": "C0000047",
+            "nome": "Prova 47",
+            "data_de_inicio": "2023-12-01",
+            "data_de_fim": "2023-12-28",
+            "peso_da_nota": "1"
+        },
+        "50": {
+            "id": "C0000048",
+            "nome": "Prova 48",
+            "data_de_inicio": "2023-01-01",
+            "data_de_fim": "2023-01-28",
+            "peso_da_nota": "4"
+        },
+        "51": {
+            "id": "C0000049",
+            "nome": "Prova 49",
+            "data_de_inicio": "2023-02-01",
+            "data_de_fim": "2023-02-28",
+            "peso_da_nota": "4"
+        },
+        "52": {
+            "id": "C0000050",
+            "nome": "Prova 50",
+            "data_de_inicio": "2023-03-01",
+            "data_de_fim": "2023-03-28",
+            "peso_da_nota": "2"
+        },
+        "53": {
+            "id": "C0000051",
+            "nome": "Prova 51",
+            "data_de_inicio": "2023-04-01",
+            "data_de_fim": "2023-04-28",
+            "peso_da_nota": "1"
+        },
+        "54": {
+            "id": "C0000052",
+            "nome": "Prova 52",
+            "data_de_inicio": "2023-05-01",
+            "data_de_fim": "2023-05-28",
+            "peso_da_nota": "4"
+        },
+        "55": {
+            "id": "C0000053",
+            "nome": "Prova 53",
+            "data_de_inicio": "2023-06-01",
+            "data_de_fim": "2023-06-28",
+            "peso_da_nota": "1"
+        },
+        "56": {
+            "id": "C0000054",
+            "nome": "Prova 54",
+            "data_de_inicio": "2023-07-01",
+            "data_de_fim": "2023-07-28",
+            "peso_da_nota": "4"
+        },
+        "57": {
+            "id": "C0000055",
+            "nome": "Prova 55",
+            "data_de_inicio": "2023-08-01",
+            "data_de_fim": "2023-08-28",
+            "peso_da_nota": "2"
+        },
+        "58": {
+            "id": "C0000056",
+            "nome": "Prova 56",
+            "data_de_inicio": "2023-09-01",
+            "data_de_fim": "2023-09-28",
+            "peso_da_nota": "3"
+        },
+        "59": {
+            "id": "C0000057",
+            "nome": "Prova 57",
+            "data_de_inicio": "2023-10-01",
+            "data_de_fim": "2023-10-28",
+            "peso_da_nota": "4"
+        },
+        "60": {
+            "id": "C0000058",
+            "nome": "Prova 58",
+            "data_de_inicio": "2023-11-01",
+            "data_de_fim": "2023-11-28",
+            "peso_da_nota": "4"
+        },
+        "61": {
+            "id": "C0000059",
+            "nome": "Prova 59",
+            "data_de_inicio": "2023-12-01",
+            "data_de_fim": "2023-12-28",
+            "peso_da_nota": "2"
+        },
+        "62": {
+            "id": "C0000060",
+            "nome": "Prova 60",
+            "data_de_inicio": "2023-01-01",
+            "data_de_fim": "2023-01-28",
+            "peso_da_nota": "4"
+        },
+        "63": {
+            "id": "C0000061",
+            "nome": "Prova 61",
+            "data_de_inicio": "2023-02-01",
+            "data_de_fim": "2023-02-28",
+            "peso_da_nota": "4"
+        },
+        "64": {
+            "id": "C0000062",
+            "nome": "Prova 62",
+            "data_de_inicio": "2023-03-01",
+            "data_de_fim": "2023-03-28",
+            "peso_da_nota": "5"
+        },
+        "65": {
+            "id": "C0000063",
+            "nome": "Prova 63",
+            "data_de_inicio": "2023-04-01",
+            "data_de_fim": "2023-04-28",
+            "peso_da_nota": "3"
+        },
+        "66": {
+            "id": "C0000064",
+            "nome": "Prova 64",
+            "data_de_inicio": "2023-05-01",
+            "data_de_fim": "2023-05-28",
+            "peso_da_nota": "5"
+        },
+        "67": {
+            "id": "C0000065",
+            "nome": "Prova 65",
+            "data_de_inicio": "2023-06-01",
+            "data_de_fim": "2023-06-28",
+            "peso_da_nota": "4"
+        },
+        "68": {
+            "id": "C0000066",
+            "nome": "Prova 66",
+            "data_de_inicio": "2023-07-01",
+            "data_de_fim": "2023-07-28",
+            "peso_da_nota": "2"
+        },
+        "69": {
+            "id": "C0000067",
+            "nome": "Prova 67",
+            "data_de_inicio": "2023-08-01",
+            "data_de_fim": "2023-08-28",
+            "peso_da_nota": "5"
+        },
+        "70": {
+            "id": "C0000068",
+            "nome": "Prova 68",
+            "data_de_inicio": "2023-09-01",
+            "data_de_fim": "2023-09-28",
+            "peso_da_nota": "1"
+        },
+        "71": {
+            "id": "C0000069",
+            "nome": "Prova 69",
+            "data_de_inicio": "2023-10-01",
+            "data_de_fim": "2023-10-28",
+            "peso_da_nota": "4"
+        },
+        "72": {
+            "id": "C0000070",
+            "nome": "Prova 70",
+            "data_de_inicio": "2023-11-01",
+            "data_de_fim": "2023-11-28",
+            "peso_da_nota": "5"
+        },
+        "73": {
+            "id": "C0000071",
+            "nome": "Prova 71",
+            "data_de_inicio": "2023-12-01",
+            "data_de_fim": "2023-12-28",
+            "peso_da_nota": "3"
+        },
+        "74": {
+            "id": "C0000072",
+            "nome": "Prova 72",
+            "data_de_inicio": "2023-01-01",
+            "data_de_fim": "2023-01-28",
+            "peso_da_nota": "4"
+        },
+        "75": {
+            "id": "C0000073",
+            "nome": "Prova 73",
+            "data_de_inicio": "2023-02-01",
+            "data_de_fim": "2023-02-28",
+            "peso_da_nota": "3"
+        },
+        "76": {
+            "id": "C0000074",
+            "nome": "Prova 74",
+            "data_de_inicio": "2023-03-01",
+            "data_de_fim": "2023-03-28",
+            "peso_da_nota": "1"
+        },
+        "77": {
+            "id": "C0000075",
+            "nome": "Prova 75",
+            "data_de_inicio": "2023-04-01",
+            "data_de_fim": "2023-04-28",
+            "peso_da_nota": "5"
+        },
+        "78": {
+            "id": "C0000076",
+            "nome": "Prova 76",
+            "data_de_inicio": "2023-05-01",
+            "data_de_fim": "2023-05-28",
+            "peso_da_nota": "3"
+        },
+        "79": {
+            "id": "C0000077",
+            "nome": "Prova 77",
+            "data_de_inicio": "2023-06-01",
+            "data_de_fim": "2023-06-28",
+            "peso_da_nota": "2"
+        },
+        "80": {
+            "id": "C0000078",
+            "nome": "Prova 78",
+            "data_de_inicio": "2023-07-01",
+            "data_de_fim": "2023-07-28",
+            "peso_da_nota": "1"
+        },
+        "81": {
+            "id": "C0000079",
+            "nome": "Prova 79",
+            "data_de_inicio": "2023-08-01",
+            "data_de_fim": "2023-08-28",
+            "peso_da_nota": "4"
+        },
+        "82": {
+            "id": "C0000080",
+            "nome": "Prova 80",
+            "data_de_inicio": "2023-09-01",
+            "data_de_fim": "2023-09-28",
+            "peso_da_nota": "4"
+        },
+        "83": {
+            "id": "C0000081",
+            "nome": "Prova 81",
+            "data_de_inicio": "2023-10-01",
+            "data_de_fim": "2023-10-28",
+            "peso_da_nota": "5"
+        },
+        "84": {
+            "id": "C0000082",
+            "nome": "Prova 82",
+            "data_de_inicio": "2023-11-01",
+            "data_de_fim": "2023-11-28",
+            "peso_da_nota": "4"
+        },
+        "85": {
+            "id": "C0000083",
+            "nome": "Prova 83",
+            "data_de_inicio": "2023-12-01",
+            "data_de_fim": "2023-12-28",
+            "peso_da_nota": "2"
+        },
+        "86": {
+            "id": "C0000084",
+            "nome": "Prova 84",
+            "data_de_inicio": "2023-01-01",
+            "data_de_fim": "2023-01-28",
+            "peso_da_nota": "4"
+        },
+        "87": {
+            "id": "C0000085",
+            "nome": "Prova 85",
+            "data_de_inicio": "2023-02-01",
+            "data_de_fim": "2023-02-28",
+            "peso_da_nota": "4"
+        },
+        "88": {
+            "id": "C0000086",
+            "nome": "Prova 86",
+            "data_de_inicio": "2023-03-01",
+            "data_de_fim": "2023-03-28",
+            "peso_da_nota": "2"
+        },
+        "89": {
+            "id": "C0000087",
+            "nome": "Prova 87",
+            "data_de_inicio": "2023-04-01",
+            "data_de_fim": "2023-04-28",
+            "peso_da_nota": "1"
+        },
+        "90": {
+            "id": "C0000088",
+            "nome": "Prova 88",
+            "data_de_inicio": "2023-05-01",
+            "data_de_fim": "2023-05-28",
+            "peso_da_nota": "2"
+        },
+        "91": {
+            "id": "C0000089",
+            "nome": "Prova 89",
+            "data_de_inicio": "2023-06-01",
+            "data_de_fim": "2023-06-28",
+            "peso_da_nota": "2"
+        },
+        "92": {
+            "id": "C0000090",
+            "nome": "Prova 90",
+            "data_de_inicio": "2023-07-01",
+            "data_de_fim": "2023-07-28",
+            "peso_da_nota": "5"
+        },
+        "93": {
+            "id": "C0000091",
+            "nome": "Prova 91",
+            "data_de_inicio": "2023-08-01",
+            "data_de_fim": "2023-08-28",
+            "peso_da_nota": "5"
+        },
+        "94": {
+            "id": "C0000092",
+            "nome": "Prova 92",
+            "data_de_inicio": "2023-09-01",
+            "data_de_fim": "2023-09-28",
+            "peso_da_nota": "1"
+        },
+        "95": {
+            "id": "C0000093",
+            "nome": "Prova 93",
+            "data_de_inicio": "2023-10-01",
+            "data_de_fim": "2023-10-28",
+            "peso_da_nota": "1"
+        },
+        "96": {
+            "id": "C0000094",
+            "nome": "Prova 94",
+            "data_de_inicio": "2023-11-01",
+            "data_de_fim": "2023-11-28",
+            "peso_da_nota": "5"
+        },
+        "97": {
+            "id": "C0000095",
+            "nome": "Prova 95",
+            "data_de_inicio": "2023-12-01",
+            "data_de_fim": "2023-12-28",
+            "peso_da_nota": "1"
+        },
+        "98": {
+            "id": "C0000096",
+            "nome": "Prova 96",
+            "data_de_inicio": "2023-01-01",
+            "data_de_fim": "2023-01-28",
+            "peso_da_nota": "1"
+        },
+        "99": {
+            "id": "C0000097",
+            "nome": "Prova 97",
+            "data_de_inicio": "2023-02-01",
+            "data_de_fim": "2023-02-28",
+            "peso_da_nota": "5"
+        },
+        "100": {
+            "id": "C0000098",
+            "nome": "Prova 98",
+            "data_de_inicio": "2023-03-01",
+            "data_de_fim": "2023-03-28",
+            "peso_da_nota": "1"
+        },
+        "101": {
+            "id": "C0000099",
+            "nome": "Prova 99",
+            "data_de_inicio": "2023-04-01",
+            "data_de_fim": "2023-04-28",
+            "peso_da_nota": "2"
+        },
+        "102": {
+            "id": "C0000100",
+            "nome": "Prova 100",
+            "data_de_inicio": "2023-05-01",
+            "data_de_fim": "2023-05-28",
+            "peso_da_nota": "2"
+        }
+    },
+    "grupos": {
+        "1": {
+            "id": "1",
+            "nome": "Grupo A",
+            "alunos": [
+                "1",
+                "2"
+            ]
+        },
+        "2": {
+            "id": "G1",
+            "nome": "Grupo B",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "3": {
+            "id": "G2",
+            "nome": "Grupo C",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "4": {
+            "id": "G3",
+            "nome": "Grupo D",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "5": {
+            "id": "G4",
+            "nome": "Grupo E",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "6": {
+            "id": "G5",
+            "nome": "Grupo F",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "7": {
+            "id": "G6",
+            "nome": "Grupo G",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "8": {
+            "id": "G7",
+            "nome": "Grupo H",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "9": {
+            "id": "G8",
+            "nome": "Grupo I",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "10": {
+            "id": "G9",
+            "nome": "Grupo J",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "11": {
+            "id": "G10",
+            "nome": "Grupo K",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "12": {
+            "id": "G11",
+            "nome": "Grupo L",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "13": {
+            "id": "G12",
+            "nome": "Grupo M",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "14": {
+            "id": "G13",
+            "nome": "Grupo N",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "15": {
+            "id": "G14",
+            "nome": "Grupo O",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "16": {
+            "id": "G15",
+            "nome": "Grupo P",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "17": {
+            "id": "G16",
+            "nome": "Grupo Q",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "18": {
+            "id": "G17",
+            "nome": "Grupo R",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "19": {
+            "id": "G18",
+            "nome": "Grupo S",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "20": {
+            "id": "G19",
+            "nome": "Grupo T",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "21": {
+            "id": "G20",
+            "nome": "Grupo U",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "22": {
+            "id": "G21",
+            "nome": "Grupo V",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "23": {
+            "id": "G22",
+            "nome": "Grupo W",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "24": {
+            "id": "G23",
+            "nome": "Grupo X",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "25": {
+            "id": "G24",
+            "nome": "Grupo Y",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "26": {
+            "id": "G25",
+            "nome": "Grupo Z",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "27": {
+            "id": "G26",
+            "nome": "Grupo A",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "28": {
+            "id": "G27",
+            "nome": "Grupo B",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "29": {
+            "id": "G28",
+            "nome": "Grupo C",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "30": {
+            "id": "G29",
+            "nome": "Grupo D",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "31": {
+            "id": "G30",
+            "nome": "Grupo E",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "32": {
+            "id": "G31",
+            "nome": "Grupo F",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "33": {
+            "id": "G32",
+            "nome": "Grupo G",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "34": {
+            "id": "G33",
+            "nome": "Grupo H",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "35": {
+            "id": "G34",
+            "nome": "Grupo I",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "36": {
+            "id": "G35",
+            "nome": "Grupo J",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "37": {
+            "id": "G36",
+            "nome": "Grupo K",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "38": {
+            "id": "G37",
+            "nome": "Grupo L",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "39": {
+            "id": "G38",
+            "nome": "Grupo M",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "40": {
+            "id": "G39",
+            "nome": "Grupo N",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "41": {
+            "id": "G40",
+            "nome": "Grupo O",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "42": {
+            "id": "G41",
+            "nome": "Grupo P",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "43": {
+            "id": "G42",
+            "nome": "Grupo Q",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "44": {
+            "id": "G43",
+            "nome": "Grupo R",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "45": {
+            "id": "G44",
+            "nome": "Grupo S",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "46": {
+            "id": "G45",
+            "nome": "Grupo T",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "47": {
+            "id": "G46",
+            "nome": "Grupo U",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "48": {
+            "id": "G47",
+            "nome": "Grupo V",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "49": {
+            "id": "G48",
+            "nome": "Grupo W",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "50": {
+            "id": "G49",
+            "nome": "Grupo X",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "51": {
+            "id": "G50",
+            "nome": "Grupo Y",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "52": {
+            "id": "G51",
+            "nome": "Grupo Z",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "53": {
+            "id": "G52",
+            "nome": "Grupo A",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "54": {
+            "id": "G53",
+            "nome": "Grupo B",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "55": {
+            "id": "G54",
+            "nome": "Grupo C",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "56": {
+            "id": "G55",
+            "nome": "Grupo D",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "57": {
+            "id": "G56",
+            "nome": "Grupo E",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "58": {
+            "id": "G57",
+            "nome": "Grupo F",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "59": {
+            "id": "G58",
+            "nome": "Grupo G",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "60": {
+            "id": "G59",
+            "nome": "Grupo H",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "61": {
+            "id": "G60",
+            "nome": "Grupo I",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "62": {
+            "id": "G61",
+            "nome": "Grupo J",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "63": {
+            "id": "G62",
+            "nome": "Grupo K",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "64": {
+            "id": "G63",
+            "nome": "Grupo L",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "65": {
+            "id": "G64",
+            "nome": "Grupo M",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "66": {
+            "id": "G65",
+            "nome": "Grupo N",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "67": {
+            "id": "G66",
+            "nome": "Grupo O",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "68": {
+            "id": "G67",
+            "nome": "Grupo P",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "69": {
+            "id": "G68",
+            "nome": "Grupo Q",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "70": {
+            "id": "G69",
+            "nome": "Grupo R",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "71": {
+            "id": "G70",
+            "nome": "Grupo S",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "72": {
+            "id": "G71",
+            "nome": "Grupo T",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "73": {
+            "id": "G72",
+            "nome": "Grupo U",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "74": {
+            "id": "G73",
+            "nome": "Grupo V",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "75": {
+            "id": "G74",
+            "nome": "Grupo W",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "76": {
+            "id": "G75",
+            "nome": "Grupo X",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "77": {
+            "id": "G76",
+            "nome": "Grupo Y",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "78": {
+            "id": "G77",
+            "nome": "Grupo Z",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "79": {
+            "id": "G78",
+            "nome": "Grupo A",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "80": {
+            "id": "G79",
+            "nome": "Grupo B",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "81": {
+            "id": "G80",
+            "nome": "Grupo C",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "82": {
+            "id": "G81",
+            "nome": "Grupo D",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "83": {
+            "id": "G82",
+            "nome": "Grupo E",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "84": {
+            "id": "G83",
+            "nome": "Grupo F",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "85": {
+            "id": "G84",
+            "nome": "Grupo G",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "86": {
+            "id": "G85",
+            "nome": "Grupo H",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "87": {
+            "id": "G86",
+            "nome": "Grupo I",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "88": {
+            "id": "G87",
+            "nome": "Grupo J",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "89": {
+            "id": "G88",
+            "nome": "Grupo K",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "90": {
+            "id": "G89",
+            "nome": "Grupo L",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "91": {
+            "id": "G90",
+            "nome": "Grupo M",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "92": {
+            "id": "G91",
+            "nome": "Grupo N",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "93": {
+            "id": "G92",
+            "nome": "Grupo O",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "94": {
+            "id": "G93",
+            "nome": "Grupo P",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "95": {
+            "id": "G94",
+            "nome": "Grupo Q",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "96": {
+            "id": "G95",
+            "nome": "Grupo R",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "97": {
+            "id": "G96",
+            "nome": "Grupo S",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "98": {
+            "id": "G97",
+            "nome": "Grupo T",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "99": {
+            "id": "G98",
+            "nome": "Grupo U",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "100": {
+            "id": "G99",
+            "nome": "Grupo V",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        "101": {
+            "id": "G100",
+            "nome": "Grupo W",
+            "alunos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        }
+    },
+    "notas": {
+        "ID1": {
+            "aluno_ra": "1",
+            "ciclo_id": "1",
+            "turma_id": "1",
+            "score": 8.5
+        },
+        "ID2": {
+            "aluno_ra": "1",
+            "ciclo_id": "2",
+            "turma_id": "1",
+            "score": 7.2
+        },
+        "ID3": {
+            "aluno_ra": "2",
+            "ciclo_id": "1",
+            "turma_id": "1",
+            "score": 9.0
+        },
+        "ID4": {
+            "aluno_ra": "2",
+            "ciclo_id": "2",
+            "turma_id": "1",
+            "score": 8.7
+        },
+        "N0000001": {
+            "aluno_ra": "ra8756894",
+            "ciclo_id": "11",
+            "turma_id": "8",
+            "score": 6.7
+        },
+        "N0000002": {
+            "aluno_ra": "ra5466980",
+            "ciclo_id": "60",
+            "turma_id": "79",
+            "score": 1.9
+        },
+        "N0000003": {
+            "aluno_ra": "ra9794629",
+            "ciclo_id": "20",
+            "turma_id": "84",
+            "score": 1.3
+        },
+        "N0000004": {
+            "aluno_ra": "ra3591397",
+            "ciclo_id": "11",
+            "turma_id": "79",
+            "score": 6.4
+        },
+        "N0000005": {
+            "aluno_ra": "ra4645548",
+            "ciclo_id": "18",
+            "turma_id": "67",
+            "score": 9.5
+        },
+        "N0000006": {
+            "aluno_ra": "ra3057750",
+            "ciclo_id": "101",
+            "turma_id": "66",
+            "score": 8.2
+        },
+        "N0000007": {
+            "aluno_ra": "ra8259386",
+            "ciclo_id": "70",
+            "turma_id": "63",
+            "score": 0.2
+        },
+        "N0000008": {
+            "aluno_ra": "ra6477052",
+            "ciclo_id": "13",
+            "turma_id": "7",
+            "score": 4.2
+        },
+        "N0000009": {
+            "aluno_ra": "ra3018863",
+            "ciclo_id": "94",
+            "turma_id": "85",
+            "score": 1.3
+        },
+        "N0000010": {
+            "aluno_ra": "ra9911456",
+            "ciclo_id": "82",
+            "turma_id": "34",
+            "score": 5.6
+        },
+        "N0000011": {
+            "aluno_ra": "ra5557348",
+            "ciclo_id": "91",
+            "turma_id": "98",
+            "score": 6.8
+        },
+        "N0000012": {
+            "aluno_ra": "ra2719416",
+            "ciclo_id": "63",
+            "turma_id": "44",
+            "score": 9.4
+        },
+        "N0000013": {
+            "aluno_ra": "ra6850253",
+            "ciclo_id": "53",
+            "turma_id": "60",
+            "score": 6.5
+        },
+        "N0000014": {
+            "aluno_ra": "ra8792084",
+            "ciclo_id": "43",
+            "turma_id": "99",
+            "score": 5.1
+        },
+        "N0000015": {
+            "aluno_ra": "ra6845668",
+            "ciclo_id": "38",
+            "turma_id": "3",
+            "score": 0.7
+        },
+        "N0000016": {
+            "aluno_ra": "ra8493437",
+            "ciclo_id": "66",
+            "turma_id": "15",
+            "score": 7.9
+        },
+        "N0000017": {
+            "aluno_ra": "ra6938971",
+            "ciclo_id": "66",
+            "turma_id": "40",
+            "score": 5.2
+        },
+        "N0000018": {
+            "aluno_ra": "ra5301540",
+            "ciclo_id": "11",
+            "turma_id": "15",
+            "score": 7.4
+        },
+        "N0000019": {
+            "aluno_ra": "ra6516432",
+            "ciclo_id": "13",
+            "turma_id": "100",
+            "score": 7.7
+        },
+        "N0000020": {
+            "aluno_ra": "ra6746309",
+            "ciclo_id": "75",
+            "turma_id": "21",
+            "score": 9.9
+        },
+        "N0000021": {
+            "aluno_ra": "ra1819422",
+            "ciclo_id": "36",
+            "turma_id": "63",
+            "score": 8.6
+        },
+        "N0000022": {
+            "aluno_ra": "ra2411013",
+            "ciclo_id": "42",
+            "turma_id": "24",
+            "score": 3.7
+        },
+        "N0000023": {
+            "aluno_ra": "ra3445785",
+            "ciclo_id": "49",
+            "turma_id": "31",
+            "score": 0.2
+        },
+        "N0000024": {
+            "aluno_ra": "ra5436179",
+            "ciclo_id": "27",
+            "turma_id": "5",
+            "score": 0.2
+        },
+        "N0000025": {
+            "aluno_ra": "ra1838501",
+            "ciclo_id": "44",
+            "turma_id": "83",
+            "score": 2.5
+        },
+        "N0000026": {
+            "aluno_ra": "ra7158735",
+            "ciclo_id": "7",
+            "turma_id": "16",
+            "score": 9.3
+        },
+        "N0000027": {
+            "aluno_ra": "ra6591017",
+            "ciclo_id": "69",
+            "turma_id": "90",
+            "score": 1.0
+        },
+        "N0000028": {
+            "aluno_ra": "ra3910272",
+            "ciclo_id": "21",
+            "turma_id": "26",
+            "score": 6.9
+        },
+        "N0000029": {
+            "aluno_ra": "ra5931026",
+            "ciclo_id": "86",
+            "turma_id": "33",
+            "score": 3.0
+        },
+        "N0000030": {
+            "aluno_ra": "ra5137294",
+            "ciclo_id": "15",
+            "turma_id": "3",
+            "score": 9.7
+        },
+        "N0000031": {
+            "aluno_ra": "ra8807745",
+            "ciclo_id": "57",
+            "turma_id": "75",
+            "score": 3.8
+        },
+        "N0000032": {
+            "aluno_ra": "ra7081072",
+            "ciclo_id": "62",
+            "turma_id": "37",
+            "score": 1.1
+        },
+        "N0000033": {
+            "aluno_ra": "ra4800168",
+            "ciclo_id": "36",
+            "turma_id": "16",
+            "score": 6.0
+        },
+        "N0000034": {
+            "aluno_ra": "ra2179071",
+            "ciclo_id": "22",
+            "turma_id": "80",
+            "score": 2.3
+        },
+        "N0000035": {
+            "aluno_ra": "ra5739506",
+            "ciclo_id": "90",
+            "turma_id": "53",
+            "score": 9.0
+        },
+        "N0000036": {
+            "aluno_ra": "ra1511856",
+            "ciclo_id": "81",
+            "turma_id": "6",
+            "score": 9.7
+        },
+        "N0000037": {
+            "aluno_ra": "ra8774572",
+            "ciclo_id": "57",
+            "turma_id": "69",
+            "score": 5.3
+        },
+        "N0000038": {
+            "aluno_ra": "ra5805543",
+            "ciclo_id": "80",
+            "turma_id": "92",
+            "score": 3.5
+        },
+        "N0000039": {
+            "aluno_ra": "ra5184946",
+            "ciclo_id": "74",
+            "turma_id": "94",
+            "score": 0.3
+        },
+        "N0000040": {
+            "aluno_ra": "ra5959307",
+            "ciclo_id": "5",
+            "turma_id": "1",
+            "score": 3.2
+        },
+        "N0000041": {
+            "aluno_ra": "ra8100350",
+            "ciclo_id": "96",
+            "turma_id": "96",
+            "score": 1.4
+        },
+        "N0000042": {
+            "aluno_ra": "ra6003920",
+            "ciclo_id": "27",
+            "turma_id": "29",
+            "score": 4.0
+        },
+        "N0000043": {
+            "aluno_ra": "ra5336700",
+            "ciclo_id": "5",
+            "turma_id": "19",
+            "score": 2.5
+        },
+        "N0000044": {
+            "aluno_ra": "ra6889036",
+            "ciclo_id": "70",
+            "turma_id": "13",
+            "score": 2.5
+        },
+        "N0000045": {
+            "aluno_ra": "ra5746317",
+            "ciclo_id": "63",
+            "turma_id": "47",
+            "score": 2.7
+        },
+        "N0000046": {
+            "aluno_ra": "ra9396330",
+            "ciclo_id": "57",
+            "turma_id": "63",
+            "score": 3.8
+        },
+        "N0000047": {
+            "aluno_ra": "ra5701423",
+            "ciclo_id": "23",
+            "turma_id": "60",
+            "score": 2.7
+        },
+        "N0000048": {
+            "aluno_ra": "ra6898777",
+            "ciclo_id": "26",
+            "turma_id": "47",
+            "score": 1.0
+        },
+        "N0000049": {
+            "aluno_ra": "ra2224158",
+            "ciclo_id": "80",
+            "turma_id": "1",
+            "score": 6.9
+        },
+        "N0000050": {
+            "aluno_ra": "ra5301347",
+            "ciclo_id": "73",
+            "turma_id": "92",
+            "score": 8.8
+        },
+        "N0000051": {
+            "aluno_ra": "ra4715870",
+            "ciclo_id": "89",
+            "turma_id": "67",
+            "score": 9.2
+        },
+        "N0000052": {
+            "aluno_ra": "ra8173114",
+            "ciclo_id": "83",
+            "turma_id": "54",
+            "score": 2.6
+        },
+        "N0000053": {
+            "aluno_ra": "ra1013687",
+            "ciclo_id": "33",
+            "turma_id": "23",
+            "score": 10.0
+        },
+        "N0000054": {
+            "aluno_ra": "ra7250082",
+            "ciclo_id": "3",
+            "turma_id": "16",
+            "score": 4.1
+        },
+        "N0000055": {
+            "aluno_ra": "ra4548075",
+            "ciclo_id": "14",
+            "turma_id": "44",
+            "score": 9.9
+        },
+        "N0000056": {
+            "aluno_ra": "ra9955353",
+            "ciclo_id": "26",
+            "turma_id": "3",
+            "score": 4.1
+        },
+        "N0000057": {
+            "aluno_ra": "ra6010744",
+            "ciclo_id": "33",
+            "turma_id": "14",
+            "score": 6.1
+        },
+        "N0000058": {
+            "aluno_ra": "ra9524603",
+            "ciclo_id": "28",
+            "turma_id": "79",
+            "score": 2.6
+        },
+        "N0000059": {
+            "aluno_ra": "ra5002551",
+            "ciclo_id": "12",
+            "turma_id": "65",
+            "score": 10.0
+        },
+        "N0000060": {
+            "aluno_ra": "ra3813306",
+            "ciclo_id": "69",
+            "turma_id": "87",
+            "score": 7.8
+        },
+        "N0000061": {
+            "aluno_ra": "ra3713472",
+            "ciclo_id": "14",
+            "turma_id": "38",
+            "score": 5.9
+        },
+        "N0000062": {
+            "aluno_ra": "ra2893870",
+            "ciclo_id": "3",
+            "turma_id": "38",
+            "score": 8.9
+        },
+        "N0000063": {
+            "aluno_ra": "ra4621219",
+            "ciclo_id": "83",
+            "turma_id": "30",
+            "score": 9.9
+        },
+        "N0000064": {
+            "aluno_ra": "ra6423369",
+            "ciclo_id": "46",
+            "turma_id": "8",
+            "score": 3.2
+        },
+        "N0000065": {
+            "aluno_ra": "ra7622200",
+            "ciclo_id": "47",
+            "turma_id": "8",
+            "score": 7.9
+        },
+        "N0000066": {
+            "aluno_ra": "ra3336020",
+            "ciclo_id": "52",
+            "turma_id": "75",
+            "score": 5.8
+        },
+        "N0000067": {
+            "aluno_ra": "ra7449943",
+            "ciclo_id": "14",
+            "turma_id": "66",
+            "score": 8.5
+        },
+        "N0000068": {
+            "aluno_ra": "ra7593801",
+            "ciclo_id": "94",
+            "turma_id": "78",
+            "score": 8.1
+        },
+        "N0000069": {
+            "aluno_ra": "ra5953955",
+            "ciclo_id": "3",
+            "turma_id": "38",
+            "score": 9.4
+        },
+        "N0000070": {
+            "aluno_ra": "ra4285711",
+            "ciclo_id": "34",
+            "turma_id": "39",
+            "score": 5.2
+        },
+        "N0000071": {
+            "aluno_ra": "ra5221799",
+            "ciclo_id": "33",
+            "turma_id": "78",
+            "score": 3.8
+        },
+        "N0000072": {
+            "aluno_ra": "ra8148389",
+            "ciclo_id": "13",
+            "turma_id": "40",
+            "score": 5.5
+        },
+        "N0000073": {
+            "aluno_ra": "ra4996433",
+            "ciclo_id": "19",
+            "turma_id": "4",
+            "score": 0.3
+        },
+        "N0000074": {
+            "aluno_ra": "ra5096024",
+            "ciclo_id": "48",
+            "turma_id": "89",
+            "score": 3.4
+        },
+        "N0000075": {
+            "aluno_ra": "ra8351394",
+            "ciclo_id": "32",
+            "turma_id": "42",
+            "score": 0.5
+        },
+        "N0000076": {
+            "aluno_ra": "ra2691375",
+            "ciclo_id": "67",
+            "turma_id": "40",
+            "score": 5.5
+        },
+        "N0000077": {
+            "aluno_ra": "ra4838232",
+            "ciclo_id": "18",
+            "turma_id": "49",
+            "score": 5.1
+        },
+        "N0000078": {
+            "aluno_ra": "ra1230129",
+            "ciclo_id": "18",
+            "turma_id": "1",
+            "score": 4.1
+        },
+        "N0000079": {
+            "aluno_ra": "ra6369712",
+            "ciclo_id": "61",
+            "turma_id": "16",
+            "score": 7.1
+        },
+        "N0000080": {
+            "aluno_ra": "ra4410181",
+            "ciclo_id": "85",
+            "turma_id": "1",
+            "score": 1.8
+        },
+        "N0000081": {
+            "aluno_ra": "ra9901915",
+            "ciclo_id": "62",
+            "turma_id": "51",
+            "score": 1.0
+        },
+        "N0000082": {
+            "aluno_ra": "ra8925152",
+            "ciclo_id": "56",
+            "turma_id": "74",
+            "score": 5.7
+        },
+        "N0000083": {
+            "aluno_ra": "ra2441029",
+            "ciclo_id": "73",
+            "turma_id": "67",
+            "score": 6.5
+        },
+        "N0000084": {
+            "aluno_ra": "ra5322858",
+            "ciclo_id": "78",
+            "turma_id": "45",
+            "score": 2.1
+        },
+        "N0000085": {
+            "aluno_ra": "ra7881368",
+            "ciclo_id": "99",
+            "turma_id": "67",
+            "score": 8.0
+        },
+        "N0000086": {
+            "aluno_ra": "ra2440663",
+            "ciclo_id": "5",
+            "turma_id": "92",
+            "score": 9.3
+        },
+        "N0000087": {
+            "aluno_ra": "ra1659522",
+            "ciclo_id": "88",
+            "turma_id": "53",
+            "score": 6.9
+        },
+        "N0000088": {
+            "aluno_ra": "ra9252081",
+            "ciclo_id": "102",
+            "turma_id": "84",
+            "score": 7.5
+        },
+        "N0000089": {
+            "aluno_ra": "ra8690493",
+            "ciclo_id": "77",
+            "turma_id": "41",
+            "score": 8.9
+        },
+        "N0000090": {
+            "aluno_ra": "ra2408923",
+            "ciclo_id": "41",
+            "turma_id": "83",
+            "score": 4.0
+        },
+        "N0000091": {
+            "aluno_ra": "ra8750611",
+            "ciclo_id": "85",
+            "turma_id": "53",
+            "score": 4.4
+        },
+        "N0000092": {
+            "aluno_ra": "ra7877852",
+            "ciclo_id": "31",
+            "turma_id": "40",
+            "score": 7.3
+        },
+        "N0000093": {
+            "aluno_ra": "ra2248516",
+            "ciclo_id": "49",
+            "turma_id": "40",
+            "score": 4.9
+        },
+        "N0000094": {
+            "aluno_ra": "ra4836538",
+            "ciclo_id": "41",
+            "turma_id": "83",
+            "score": 9.8
+        },
+        "N0000095": {
+            "aluno_ra": "ra1456875",
+            "ciclo_id": "76",
+            "turma_id": "84",
+            "score": 5.6
+        },
+        "N0000096": {
+            "aluno_ra": "ra7058498",
+            "ciclo_id": "63",
+            "turma_id": "49",
+            "score": 5.0
+        },
+        "N0000097": {
+            "aluno_ra": "ra9951429",
+            "ciclo_id": "59",
+            "turma_id": "1",
+            "score": 3.6
+        },
+        "N0000098": {
+            "aluno_ra": "ra2361604",
+            "ciclo_id": "65",
+            "turma_id": "10",
+            "score": 7.5
+        },
+        "N0000099": {
+            "aluno_ra": "ra8811912",
+            "ciclo_id": "88",
+            "turma_id": "45",
+            "score": 2.6
+        },
+        "N0000100": {
+            "aluno_ra": "ra3772969",
+            "ciclo_id": "41",
+            "turma_id": "26",
+            "score": 8.8
+        }
+    }
+}
