@@ -1,23 +1,20 @@
 {
     "alunos": {
         "1": {
-            "ra": "1",
-            "nome": "aa",
-            "idade": "12",
-            "email": "aa@aa.com",
+            "ra": "2023001",
+            "nome": "João da Silva",
+            "idade": "18",
+            "email": "joao.silva@example.com",
             "turmas": [
                 "1"
             ],
-            "grupos": [],
-            "fee": [
-                7.14
-            ]
+            "grupos": []
         },
         "2": {
-            "ra": "2",
-            "nome": "bb",
-            "idade": "21",
-            "email": "bb@bb.com",
+            "ra": "2023002",
+            "nome": "Maria Oliveira",
+            "idade": "20",
+            "email": "maria.oliveira@example.com",
             "turmas": [
                 "1"
             ],
@@ -27,21 +24,21 @@
     "turmas": {
         "1": {
             "id": "1",
-            "nome": "T1",
-            "data_de_inicio": "12",
+            "nome": "Turma de Matemática",
+            "data_de_inicio": "2023-09-01",
             "ciclos": [
                 {
                     "id": "1",
-                    "nome": "C1",
-                    "data_de_inicio": "12",
-                    "data_de_fim": "21",
+                    "nome": "Prova 1",
+                    "data_de_inicio": "2023-09-01",
+                    "data_de_fim": "2023-09-30",
                     "peso_da_nota": "3"
                 },
                 {
                     "id": "2",
-                    "nome": "C2",
-                    "data_de_inicio": "23",
-                    "data_de_fim": "32",
+                    "nome": "Prova 2",
+                    "data_de_inicio": "2023-10-01",
+                    "data_de_fim": "2023-10-31",
                     "peso_da_nota": "4"
                 }
             ]
@@ -50,23 +47,23 @@
     "ciclos": {
         "1": {
             "id": "1",
-            "nome": "C1",
-            "data_de_inicio": "12",
-            "data_de_fim": "21",
+            "nome": "Prova 1",
+            "data_de_inicio": "2023-09-01",
+            "data_de_fim": "2023-09-30",
             "peso_da_nota": "3"
         },
         "2": {
             "id": "2",
-            "nome": "C2",
-            "data_de_inicio": "23",
-            "data_de_fim": "32",
+            "nome": "Prova 2",
+            "data_de_inicio": "2023-10-01",
+            "data_de_fim": "2023-10-31",
             "peso_da_nota": "4"
         }
     },
     "grupos": {
         "1": {
             "id": "1",
-            "nome": "aabb",
+            "nome": "Grupo A",
             "alunos": [
                 "1",
                 "2"
@@ -78,13 +75,25 @@
             "aluno_ra": "1",
             "ciclo_id": "1",
             "turma_id": "1",
-            "score": 6.0
+            "score": 8.5
         },
         "ID2": {
             "aluno_ra": "1",
             "ciclo_id": "2",
             "turma_id": "1",
-            "score": 8.0
+            "score": 7.2
+        },
+        "ID3": {
+            "aluno_ra": "2",
+            "ciclo_id": "1",
+            "turma_id": "1",
+            "score": 9.0
+        },
+        "ID4": {
+            "aluno_ra": "2",
+            "ciclo_id": "2",
+            "turma_id": "1",
+            "score": 8.7
         }
     }
 }
