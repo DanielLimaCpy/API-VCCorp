@@ -1,0 +1,90 @@
+{
+    "alunos": {
+        "1": {
+            "ra": "1",
+            "nome": "aa",
+            "idade": "12",
+            "email": "aa@aa.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": [],
+            "fee": [
+                7.14
+            ]
+        },
+        "2": {
+            "ra": "2",
+            "nome": "bb",
+            "idade": "21",
+            "email": "bb@bb.com",
+            "turmas": [
+                "1"
+            ],
+            "grupos": []
+        }
+    },
+    "turmas": {
+        "1": {
+            "id": "1",
+            "nome": "T1",
+            "data_de_inicio": "12",
+            "ciclos": [
+                {
+                    "id": "1",
+                    "nome": "C1",
+                    "data_de_inicio": "12",
+                    "data_de_fim": "21",
+                    "peso_da_nota": "3"
+                },
+                {
+                    "id": "2",
+                    "nome": "C2",
+                    "data_de_inicio": "23",
+                    "data_de_fim": "32",
+                    "peso_da_nota": "4"
+                }
+            ]
+        }
+    },
+    "ciclos": {
+        "1": {
+            "id": "1",
+            "nome": "C1",
+            "data_de_inicio": "12",
+            "data_de_fim": "21",
+            "peso_da_nota": "3"
+        },
+        "2": {
+            "id": "2",
+            "nome": "C2",
+            "data_de_inicio": "23",
+            "data_de_fim": "32",
+            "peso_da_nota": "4"
+        }
+    },
+    "grupos": {
+        "1": {
+            "id": "1",
+            "nome": "aabb",
+            "alunos": [
+                "1",
+                "2"
+            ]
+        }
+    },
+    "notas": {
+        "ID1": {
+            "aluno_ra": "1",
+            "ciclo_id": "1",
+            "turma_id": "1",
+            "score": 6.0
+        },
+        "ID2": {
+            "aluno_ra": "1",
+            "ciclo_id": "2",
+            "turma_id": "1",
+            "score": 8.0
+        }
+    }
+}
