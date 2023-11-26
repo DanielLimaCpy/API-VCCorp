@@ -83,7 +83,7 @@ def func_cadastrar_ciclos():
                 break  # Saia do loop interno se a data for válida
             else:
                 print('insira uma data valida')
-        print(data_inicio.strftime('%d/%m/%Y'))
+        print(data_fim.strftime('%d/%m/%Y'))
         while True:
             peso_nota = input('Qual o peso da nota do ciclo? ')
             if peso_nota.isdigit():
