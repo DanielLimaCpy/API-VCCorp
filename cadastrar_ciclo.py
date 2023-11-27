@@ -1,6 +1,18 @@
 import json
 from editar_ciclos import editar_ciclo
+from datetime import datetime
+from validacao_data import obter_data_inicio
 import random
+
+def default_serializer(obj):
+    if isinstance(obj, datetime):
+        return obj.strftime("%d/%m/%Y")
+
+def gerar_id_aleatorio():
+    id_prefixo = "c"
+    id_numero_aleatorio = ''.join([str(random.randint(0, 9)) for _ in range(7)])
+    return f"{id_prefixo}{id_numero_aleatorio}"
+
 def carregar_dados():
     try:
         with open('dados.json', 'r') as arquivo_json:
@@ -18,12 +30,6 @@ def carregar_dados():
 # Função para verificar se um ciclo já existe nos dados
 def ciclo_existe(id_ciclo, dados):
     return id_ciclo in dados['ciclos']
-
-def gerar_id_aleatorio():
-    id_prefixo = "c"
-    id_numero_aleatorio = ''.join([str(random.randint(0, 9)) for _ in range(7)])
-    return f"{id_prefixo}{id_numero_aleatorio}"
-
 
 # Função para cadastrar ciclos
 def func_cadastrar_ciclos():
@@ -69,8 +75,29 @@ def func_cadastrar_ciclos():
                 break
 
         nome_ciclo = input('Qual o nome do ciclo? ')
-        data_inicio = input('Qual a data de início do ciclo? ')
-        data_fim = input('Qual a data de fim do ciclo? ')
+        while True:
+            dataini = input('Qual a data de início do ciclo? (formato: dd/mm/aaaa) ')
+            data_inicio = obter_data_inicio(dataini)
+
+            if data_inicio is not None:
+                break  # Saia do loop interno se a data for válida
+            else:
+                print('insira uma data valida')
+        print(data_inicio.strftime('%d/%m/%Y'))
+        while True:
+            try:
+                datafim = input('Qual a data do fim do ciclo? (formato: dd/mm/aaaa) ')
+                data_fim = datetime.strptime(datafim, "%d/%m/%Y")
+                if data_fim >= data_inicio:
+                    break  # Saia do loop interno se a data for válida
+                else:
+                    print("A data inserida não pode ser anterior à data inicial.")
+            except ValueError:
+                print("Formato de data inválido. Tente novamente.")
+
+        print(data_fim.strftime('%d/%m/%Y'))
+
+    
         while True:
             peso_nota = input('Qual o peso da nota do ciclo? ')
             if peso_nota.isdigit():
@@ -94,7 +121,9 @@ def func_cadastrar_ciclos():
         dados['ciclos'][id_ciclo] = novo_ciclo
 
         with open('dados.json', 'w') as arquivo_json:
-            json.dump(dados, arquivo_json, indent=4)
+            json.dump(dados, arquivo_json, indent=4, default=default_serializer)
 
         print('Cadastro do ciclo realizado com sucesso e vinculado à turma.')
         break
+
+func_cadastrar_ciclos()

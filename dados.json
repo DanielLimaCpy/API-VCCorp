@@ -1,14 +1,15 @@
 {
     "alunos": {
         "1": {
-            "ra": "2023001",
-            "nome": "Jo\u00c3\u00a3o da Silva",
-            "idade": "18",
-            "email": "joao.silva@example.com",
+            "ra": "1",
+            "nome": "aa",
+            "idade": "12",
+            "email": "aa@aa.com",
             "turmas": [
                 "1"
             ],
             "grupos": [],
+<<<<<<< Updated upstream
             "f.e.e": ""
         },
         "2": {
@@ -324,6 +325,17 @@
             "nome": "Raphael Martins",
             "idade": "18",
             "email": "raphael.martins@example.com",
+=======
+            "fee": [
+                7.14
+            ]
+        },
+        "2": {
+            "ra": "2",
+            "nome": "bb",
+            "idade": "21",
+            "email": "bb@bb.com",
+>>>>>>> Stashed changes
             "turmas": [
                 "1"
             ],
@@ -4834,24 +4846,39 @@
     "turmas": {
         "1": {
             "id": "1",
-            "nome": "Turma de Matem\u00c3\u00a1tica",
-            "data_de_inicio": "2023-09-01",
+            "nome": "T1",
+            "data_de_inicio": "12",
             "ciclos": [
                 {
                     "id": "1",
-                    "nome": "Prova 1",
-                    "data_de_inicio": "2023-09-01",
-                    "data_de_fim": "2023-09-30",
+                    "nome": "C1",
+                    "data_de_inicio": "12",
+                    "data_de_fim": "21",
                     "peso_da_nota": "3"
                 },
                 {
                     "id": "2",
-                    "nome": "Prova 2",
-                    "data_de_inicio": "2023-10-01",
-                    "data_de_fim": "2023-10-31",
+                    "nome": "C2",
+                    "data_de_inicio": "23",
+                    "data_de_fim": "32",
                     "peso_da_nota": "4"
+                },
+                {
+                    "id": "3",
+                    "nome": "aa",
+                    "data_de_inicio": "12/12/2023",
+                    "data_de_fim": "13/12/2023",
+                    "peso_da_nota": "5"
+                },
+                {
+                    "id": "c8358649",
+                    "nome": "rand",
+                    "data_de_inicio": "27/11/2023",
+                    "data_de_fim": "28/11/2023",
+                    "peso_da_nota": "6"
                 }
             ]
+<<<<<<< Updated upstream
         },
         "2": {
             "id": "T0000001",
@@ -14915,24 +14942,27 @@
                 "ra1841448",
                 "ra5271940"
             ]
+=======
+>>>>>>> Stashed changes
         }
     },
     "ciclos": {
         "1": {
             "id": "1",
-            "nome": "Prova 1",
-            "data_de_inicio": "2023-09-01",
-            "data_de_fim": "2023-09-30",
+            "nome": "C1",
+            "data_de_inicio": "12",
+            "data_de_fim": "21",
             "peso_da_nota": "3"
         },
         "2": {
             "id": "2",
-            "nome": "Prova 2",
-            "data_de_inicio": "2023-10-01",
-            "data_de_fim": "2023-10-31",
+            "nome": "C2",
+            "data_de_inicio": "23",
+            "data_de_fim": "32",
             "peso_da_nota": "4"
         },
         "3": {
+<<<<<<< Updated upstream
             "id": "C0000001",
             "nome": "Prova 1",
             "data_de_inicio": "2023-02-01",
@@ -18431,16 +18461,31 @@
             "data_de_inicio": "2023-05-01",
             "data_de_fim": "2023-05-28",
             "peso_da_nota": "3"
+=======
+            "id": "3",
+            "nome": "aa",
+            "data_de_inicio": "12/12/2023",
+            "data_de_fim": "13/12/2023",
+            "peso_da_nota": "5"
+        },
+        "c8358649": {
+            "id": "c8358649",
+            "nome": "rand",
+            "data_de_inicio": "27/11/2023",
+            "data_de_fim": "28/11/2023",
+            "peso_da_nota": "6"
+>>>>>>> Stashed changes
         }
     },
     "grupos": {
         "1": {
             "id": "1",
-            "nome": "Grupo A",
+            "nome": "aabb",
             "alunos": [
                 "1",
                 "2"
             ]
+<<<<<<< Updated upstream
         },
         "2": {
             "id": "G1",
@@ -36441,6 +36486,8 @@
                 "29",
                 "30"
             ]
+=======
+>>>>>>> Stashed changes
         }
     },
     "notas": {
@@ -36448,12 +36495,13 @@
             "aluno_ra": "1",
             "ciclo_id": "1",
             "turma_id": "1",
-            "score": 8.5
+            "score": 6.0
         },
         "ID2": {
             "aluno_ra": "1",
             "ciclo_id": "2",
             "turma_id": "1",
+<<<<<<< Updated upstream
             "score": 7.2
         },
         "ID3": {
@@ -37067,6 +37115,9 @@
             "ciclo_id": "247",
             "turma_id": "405",
             "score": 6.3
+=======
+            "score": 8.0
+>>>>>>> Stashed changes
         }
     }
 }

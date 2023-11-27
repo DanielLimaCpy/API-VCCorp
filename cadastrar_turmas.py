@@ -65,3 +65,5 @@ def func_cadastrar_turmas():
                     json.dump(dados, arquivo_json, indent=4)
                 print('Turma salva com sucesso.')
                 return True
+
+func_cadastrar_turmas()
