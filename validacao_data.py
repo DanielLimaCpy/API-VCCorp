@@ -1,17 +1,11 @@
-from datetime import datetime
+from datetime import datetime, date
 
-datain = None  # Inicialize a variável global
-
-def obter_data_inicio(dataini):
-    global datain
+def obter_data_inicio(datacheck):
     while True:
         try:
-            datain = datetime.strptime(dataini, "%d/%m/%Y")
-            if datain >= datetime.now():
-                return datain
-            else:
-                print("A data inserida não pode ser anterior à data atual.")
+            datachk = datetime.strptime(datacheck, "%d/%m/%Y")
+            
+            return datachk  # Retorna a data se a conversão for bem-sucedida
         except ValueError:
             print("Formato de data inválido. Tente novamente.")
-            return None
-       
+            datacheck = input("Nova Data de Início: ")  # Solicita uma nova entrada

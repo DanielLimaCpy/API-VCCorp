@@ -2,6 +2,9 @@ import json
 from datetime import datetime
 from validacao_data import obter_data_inicio
 
+def default_serializer(obj):
+    if isinstance(obj, datetime):
+        return obj.strftime("%d/%m/%Y")
 
 def carregar_dados():
     try:
@@ -45,12 +48,43 @@ def editar_ciclo():
     if novo_nome:
         ciclo['nome'] = novo_nome
 
-    nova_data_inicio = input(f'Nova Data de Início ({ciclo["data_de_inicio"]}): ')
-    if nova_data_inicio:
+    while True:
+        nova_data_inicio = input(f'Nova Data de Início ({ciclo["data_de_inicio"]}): ')
+
+        # Saia do loop se o usuário inserir 0
+        if nova_data_inicio == '':
+            break
+
+        datacheck = nova_data_inicio
+        try:
+            data_inicio = obter_data_inicio(datacheck)
+            if data_inicio is not None:
+                break  # Saia do loop interno se a data for válida
+        except ValueError:
+            print("Formato de data inválido. Tente novamente.")
+
+    # Se o usuário inserir 0, não atualize o ciclo['data_de_inicio']
+    if nova_data_inicio != '':
         ciclo['data_de_inicio'] = nova_data_inicio
 
-    nova_data_fim = input(f'Nova Data de Fim ({ciclo["data_de_fim"]}): ')
-    if nova_data_fim:
+    while True:
+        nova_data_fim = input(f'Nova Data de Fim ({ciclo["data_de_fim"]}): ')
+
+        # Saia do loop se o usuário inserir 0
+        if nova_data_fim == '':
+            break
+
+        data_fim = datetime.strptime(nova_data_fim, "%d/%m/%Y")
+        try:
+            data_inicio= datetime.strptime(ciclo["data_de_inicio"], "%d/%m/%Y")
+            if data_fim >= data_inicio:
+                break  # Saia do loop interno se a data for válida
+            else:
+                print("A data inserida não pode ser anterior à data inicial.")
+        except ValueError:
+            print("Formato de data inválido. Tente novamente.")
+       
+    if nova_data_fim !='':
         ciclo['data_de_fim'] = nova_data_fim
 
     novo_peso = input(f'Novo Peso da Nota ({ciclo["peso_da_nota"]}): ')
@@ -58,7 +92,7 @@ def editar_ciclo():
         ciclo['peso_da_nota'] = novo_peso
 
     with open('dados.json', 'w') as arquivo_json:
-        json.dump(dados, arquivo_json, indent=4)
+        json.dump(dados, arquivo_json, indent=4, default=default_serializer)
     print(f'Dados do ciclo com ID {id_ciclo} foram atualizados com sucesso.')
     return True
 

@@ -67,6 +67,13 @@
                     "data_de_inicio": "12/12/2024",
                     "data_de_fim": "13/12/2024",
                     "peso_da_nota": "6"
+                },
+                {
+                    "id": "c4088151",
+                    "nome": "aba",
+                    "data_de_inicio": "02/10/2024",
+                    "data_de_fim": "01/11/2024",
+                    "peso_da_nota": "5"
                 }
             ]
         },
@@ -104,8 +111,8 @@
         "1": {
             "id": "1",
             "nome": "C1",
-            "data_de_inicio": "12",
-            "data_de_fim": "21",
+            "data_de_inicio": "20/12/2023",
+            "data_de_fim": "22/12/2023",
             "peso_da_nota": "3"
         },
         "2": {
@@ -128,6 +135,13 @@
             "data_de_inicio": "12/12/2024",
             "data_de_fim": "13/12/2024",
             "peso_da_nota": "6"
+        },
+        "c4088151": {
+            "id": "c4088151",
+            "nome": "aba",
+            "data_de_inicio": "02/10/2024",
+            "data_de_fim": "01/11/2024",
+            "peso_da_nota": "5"
         }
     },
     "grupos": {
