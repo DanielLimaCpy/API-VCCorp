@@ -1,5 +1,6 @@
 import json
 from editar_turmas import editar_turma
+import random
 
 def carregar_dados():
     try:
@@ -15,10 +16,16 @@ def carregar_dados():
         }
     return dados
 
+def gerar_ra_aleatorio():
+    ra_prefixo = "t"
+    ra_numero_aleatorio = ''.join([str(random.randint(0, 9)) for _ in range(7)])
+    return f"{ra_prefixo}{ra_numero_aleatorio}"
+
+
 def func_cadastrar_turmas():
     dados = carregar_dados()
     while True:
-        id_turma = input('Informe o ID da turma a ser cadastrada: ')
+        id_turma = gerar_ra_aleatorio()
         if id_turma in dados['turmas']:
             print('O ID já está cadastrado. O que deseja fazer?')
             opcao = input('1 - Criar uma nova turma\n2 - Editar os dados da turma\n')

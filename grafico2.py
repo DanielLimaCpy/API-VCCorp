@@ -1,10 +1,7 @@
-#Gráfico de Barras Agrupadas por Ciclo e Aluno:
-
-
 import matplotlib.pyplot as plt
 import json
 
-def grafico2funcao():
+def grafico_linhas_progressao_desempenho():
     # Carregar os dados do arquivo JSON
     with open('dados.json', 'r') as json_file:
         dados = json.load(json_file)
@@ -14,7 +11,7 @@ def grafico2funcao():
     ciclos = dados['ciclos']
     notas = dados['notas']
 
-    notas_por_aluno = {aluno['nome']: [] for aluno_id, aluno in alunos.items()}
+    notas_por_aluno = {aluno['nome']: {ciclo['nome']: [] for ciclo_id, ciclo in ciclos.items()} for aluno_id, aluno in alunos.items()}
 
     for nota_id, nota_info in notas.items():
         aluno_id = nota_info['aluno_ra']
@@ -24,22 +21,20 @@ def grafico2funcao():
         aluno_nome = alunos[aluno_id]['nome']
         ciclo_nome = ciclos[ciclo_id]['nome']
 
-        notas_por_aluno[aluno_nome].append((ciclo_nome, score))
+        notas_por_aluno[aluno_nome][ciclo_nome].append(score)
 
-    # Criar gráfico de barras das notas por aluno nos ciclos
-
+    # Criar gráfico de linhas da progressão de notas por aluno nos ciclos
     for aluno, notas_ciclos in notas_por_aluno.items():
-        if notas_ciclos:  # Verificar se há notas para o aluno
-            ciclos_aluno, scores_aluno = zip(*notas_ciclos)
-            plt.bar(ciclos_aluno, scores_aluno, label=aluno)
+        for ciclo, notas in notas_ciclos.items():
+            plt.plot(range(1, len(notas) + 1), notas, marker='o', label=f"{aluno} - {ciclo}")
 
     plt.xlabel('Ciclos')
     plt.ylabel('Notas')
-    plt.title('Notas dos Alunos nos Ciclos')
+    plt.title('Progressão de Notas dos Alunos nos Ciclos')
     plt.legend()
-    plt.xticks(rotation=45)
+    plt.xticks(range(1, len(ciclos) + 1), [ciclo['nome'] for ciclo_id, ciclo in ciclos.items()], rotation=45)
     plt.tight_layout()
 
     # Salvar o gráfico como um arquivo de imagem (por exemplo, PNG)
-    plt.savefig('notas_alunos_ciclos.png')
+    plt.savefig('progressao_notas_alunos_ciclos.png')
     plt.show()
