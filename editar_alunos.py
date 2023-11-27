@@ -52,5 +52,3 @@ def editar_aluno(ra_aluno=None):
     else:
         print(f'O aluno com RA {ra_aluno} não foi encontrado.')
         return False
-
-editar_aluno()

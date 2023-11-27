@@ -47,6 +47,11 @@ def func_cadastrar_grupos():
                     opcao = input('1 - Continuar mesmo assim\n2 - Cancelar cadastro\n')
                     if opcao == '2':
                         continue
+                if ra_aluno in dados['alunos']:
+                    if 'grupos' not in dados['alunos'][ra_aluno]:
+                        dados['alunos'][ra_aluno]['turmas']=[]
+                    dados['alunos'][ra_aluno]['grupos'].append(grupo_id)
+                    print(f'o Aluno com RA{ra_aluno} inserido no grupo {grupo_id}.')
                 alunos_grupo.append(ra_aluno)
 
             # Adicione outros campos relevantes

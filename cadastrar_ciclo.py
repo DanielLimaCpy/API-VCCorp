@@ -126,5 +126,3 @@ def func_cadastrar_ciclos():
 
         print('Cadastro do ciclo realizado com sucesso e vinculado à turma.')
         break
-
-func_cadastrar_ciclos()

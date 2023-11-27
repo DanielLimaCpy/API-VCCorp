@@ -97,5 +97,5 @@ def editar_ciclo():
     return True
 
 # O restante do código permanece igual
-editar_ciclo()
+
 

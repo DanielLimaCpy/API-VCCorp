@@ -51,5 +51,3 @@ def editar_turma():
     else:
         print(f'A turma com ID {turma_id} não foi encontrada.')
         return False
-
-editar_turma()

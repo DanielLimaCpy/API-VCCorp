@@ -71,5 +71,3 @@ def editar_grupo():
     else:
         print(f'O grupo com ID {grupo_id} não foi encontrado.')
         return False
-
-editar_grupo()

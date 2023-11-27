@@ -88,5 +88,3 @@ def func_cadastrar_turmas():
                     json.dump(dados, arquivo_json, indent=4, default=default_serializer)
                 print('Turma salva com sucesso.')
                 return True
-
-func_cadastrar_turmas()
