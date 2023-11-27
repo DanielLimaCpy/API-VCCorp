@@ -1,5 +1,11 @@
 import json
 from editar_turmas import editar_turma
+from validacao_data import obter_data_inicio
+from datetime import datetime
+
+def default_serializer(obj):
+    if isinstance(obj, datetime):
+        return obj.strftime("%d/%m/%Y")
 
 def carregar_dados():
     try:
@@ -29,7 +35,17 @@ def func_cadastrar_turmas():
                 return False
         else:
             nome_turma = input('Qual o nome da turma? ')
-            data_inicio = input('Qual a data de início da turma? ')
+
+
+            while True:
+                dataini = input('Qual a data de início do ciclo? (formato: dd/mm/aaaa) ')
+                data_inicio = obter_data_inicio(dataini)
+
+                if data_inicio is not None:
+                    break  # Saia do loop interno se a data for válida
+                else:
+                    print ('insira uma data valida')
+            print(data_inicio.strftime('%d/%m/%Y'))
 
             nova_turma = {
                 'id': id_turma,
@@ -40,7 +56,7 @@ def func_cadastrar_turmas():
 
             dados['turmas'][id_turma] = nova_turma
             with open('dados.json', 'w') as arquivo_json:
-                json.dump(dados, arquivo_json, indent=4)
+                json.dump(dados, arquivo_json, indent=4, default=default_serializer)
             print('Cadastro da turma realizado com sucesso.')
 
             # Pergunta se deseja inserir alunos na turma
@@ -62,7 +78,7 @@ def func_cadastrar_turmas():
             salvar_turma = input('Deseja apenas salvar a turma? (S/N): ')
             if salvar_turma.lower() == 's':
                 with open('dados.json', 'w') as arquivo_json:
-                    json.dump(dados, arquivo_json, indent=4)
+                    json.dump(dados, arquivo_json, indent=4, default=default_serializer)
                 print('Turma salva com sucesso.')
                 return True
 

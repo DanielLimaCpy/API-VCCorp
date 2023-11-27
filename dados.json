@@ -45,6 +45,20 @@
                     "peso_da_nota": "4"
                 }
             ]
+        },
+        "233": {
+            "id": "233",
+            "nome": "teste",
+            "data_de_inicio": "12/12/2023",
+            "ciclos": [
+                {
+                    "id": "c6577440",
+                    "nome": "Python",
+                    "data_de_inicio": "12/12/2023",
+                    "data_de_fim": "01/01/2024",
+                    "peso_da_nota": "5"
+                }
+            ]
         }
     },
     "ciclos": {
@@ -61,6 +75,13 @@
             "data_de_inicio": "23",
             "data_de_fim": "32",
             "peso_da_nota": "4"
+        },
+        "c6577440": {
+            "id": "c6577440",
+            "nome": "Python",
+            "data_de_inicio": "12/12/2023",
+            "data_de_fim": "01/01/2024",
+            "peso_da_nota": "5"
         }
     },
     "grupos": {

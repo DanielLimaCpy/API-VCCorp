@@ -84,6 +84,7 @@ def func_cadastrar_ciclos():
             else:
                 print('insira uma data valida')
         print(data_inicio.strftime('%d/%m/%Y'))
+        
         while True:
             try:
                 datafim = input('Qual a data do fim do ciclo? (formato: dd/mm/aaaa) ')
