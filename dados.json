@@ -6,7 +6,8 @@
             "idade": "12",
             "email": "aa@aa.com",
             "turmas": [
-                "1"
+                "1",
+                "t6959989"
             ],
             "grupos": [],
             "fee": [
@@ -15,12 +16,28 @@
         },
         "2": {
             "ra": "2",
-            "nome": "bb",
+            "nome": "bia",
             "idade": "21",
             "email": "bb@bb.com",
             "turmas": [
                 "1"
             ],
+            "grupos": []
+        },
+        "ra2240429": {
+            "ra": "ra2240429",
+            "nome": "daniel",
+            "idade": "20",
+            "email": "dainiel@aa.com",
+            "turmas": [],
+            "grupos": []
+        },
+        "ra0767917": {
+            "ra": "ra0767917",
+            "nome": "juaaa",
+            "idade": "23",
+            "email": "dd@dn.com",
+            "turmas": [],
             "grupos": []
         }
     },
@@ -43,6 +60,13 @@
                     "data_de_inicio": "23",
                     "data_de_fim": "32",
                     "peso_da_nota": "4"
+                },
+                {
+                    "id": "c9878959",
+                    "nome": "C3",
+                    "data_de_inicio": "12/12/2024",
+                    "data_de_fim": "13/12/2024",
+                    "peso_da_nota": "6"
                 }
             ]
         },
@@ -59,6 +83,21 @@
                     "peso_da_nota": "5"
                 }
             ]
+        },
+        "t0309828": {
+            "id": "t0309828",
+            "nome": "teste 2",
+            "data_de_inicio": "12/12/2023"
+        },
+        "t6085497": {
+            "id": "t6085497",
+            "nome": "teste3",
+            "data_de_inicio": "12/12/2023"
+        },
+        "t6959989": {
+            "id": "t6959989",
+            "nome": "aa",
+            "data_de_inicio": "12/12/2024"
         }
     },
     "ciclos": {
@@ -78,10 +117,17 @@
         },
         "c6577440": {
             "id": "c6577440",
-            "nome": "Python",
-            "data_de_inicio": "12/12/2023",
-            "data_de_fim": "01/01/2024",
+            "nome": "teste a",
+            "data_de_inicio": "14/12/2022",
+            "data_de_fim": "30/30/30",
             "peso_da_nota": "5"
+        },
+        "c9878959": {
+            "id": "c9878959",
+            "nome": "C3",
+            "data_de_inicio": "12/12/2024",
+            "data_de_fim": "13/12/2024",
+            "peso_da_nota": "6"
         }
     },
     "grupos": {

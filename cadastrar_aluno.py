@@ -101,3 +101,5 @@ def func_cadastrar_alunos():
             elif menu_cad_aluno_1 == '6':
                 print('Cadastro cancelado.')
                 return False
+
+func_cadastrar_alunos()

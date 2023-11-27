@@ -76,8 +76,8 @@ def func_cadastrar_ciclos():
 
         nome_ciclo = input('Qual o nome do ciclo? ')
         while True:
-            dataini = input('Qual a data de início do ciclo? (formato: dd/mm/aaaa) ')
-            data_inicio = obter_data_inicio(dataini)
+            datacheck = input('Qual a data de início do ciclo? (formato: dd/mm/aaaa) ')
+            data_inicio = obter_data_inicio(datacheck)
 
             if data_inicio is not None:
                 break  # Saia do loop interno se a data for válida

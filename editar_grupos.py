@@ -14,8 +14,16 @@ def carregar_dados():
         }
     return dados
 
+def listar_grupos(dados):
+    print("Grupos presentes:")
+    for grupo_id, grupo_info in dados.get("grupos", {}).items():
+        print(f"ID do Grupo: {grupo_id}")
+        print(f"Nome do Grupo: {grupo_info['nome']}")
+        print("-" * 20)
+
 def editar_grupo():
     dados = carregar_dados()
+    listar_grupos(dados)
     grupo_id = input("Informe o ID do grupo a ser editado: ")
     if grupo_id in dados['grupos']:
         grupo = dados['grupos'][grupo_id]
@@ -63,3 +71,5 @@ def editar_grupo():
     else:
         print(f'O grupo com ID {grupo_id} não foi encontrado.')
         return False
+
+editar_grupo()

@@ -15,8 +15,16 @@ def carregar_dados_alunos():
         }
     return dados_alunos
 
+def listar_turmas(dados):
+    print("Turmas presentes:")
+    for turma_id, turma_info in dados.get("turmas", {}).items():
+        print(f"ID da Turma: {turma_id}")
+        print(f"Nome da Turma: {turma_info['nome']}")
+        print("-" * 20)
+
 def editar_turma():
     dados = carregar_dados_alunos()
+    listar_turmas(dados)
     turma_id = input("\nQual o ID da turma que você quer editar?\n")
     if turma_id in dados['turmas']:
         turma = dados['turmas'][turma_id]
@@ -43,3 +51,5 @@ def editar_turma():
     else:
         print(f'A turma com ID {turma_id} não foi encontrada.')
         return False
+
+editar_turma()

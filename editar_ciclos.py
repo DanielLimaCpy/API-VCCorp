@@ -1,4 +1,7 @@
 import json
+from datetime import datetime
+from validacao_data import obter_data_inicio
+
 
 def carregar_dados():
     try:
@@ -14,6 +17,13 @@ def carregar_dados():
         }
     return dados  # Retorna todos os dados do JSON
 
+def listar_ciclos(dados):
+    print("Ciclos existentes:")
+    for ciclo_id, ciclo_info in dados["ciclos"].items():
+        print(f"ID do Ciclo: {ciclo_id}")
+        print(f"Nome do Ciclo: {ciclo_info['nome']}")
+        print("-" * 20)
+
 # Função para verificar se um ciclo já existe nos dados
 def ciclo_existe(id_ciclo, dados):
     return id_ciclo in dados['ciclos']
@@ -21,6 +31,7 @@ def ciclo_existe(id_ciclo, dados):
 # Função para editar ciclos
 def editar_ciclo():
     dados = carregar_dados()
+    listar_ciclos(dados)
     id_ciclo = input('Informe o ID do ciclo que deseja editar: ')
     if not ciclo_existe(id_ciclo, dados):
         print(f'O ciclo com o ID {id_ciclo} não está cadastrado.')
@@ -52,5 +63,5 @@ def editar_ciclo():
     return True
 
 # O restante do código permanece igual
+editar_ciclo()
 
-  

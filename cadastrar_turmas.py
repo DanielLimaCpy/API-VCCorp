@@ -1,5 +1,8 @@
 import json
 from editar_turmas import editar_turma
+from validacao_data import obter_data_inicio
+from datetime import datetime
+import random
 
 def carregar_dados():
     try:
@@ -14,6 +17,10 @@ def carregar_dados():
             "notas": {}
         }
     return dados
+
+def default_serializer(obj):
+    if isinstance(obj, datetime):
+        return obj.strftime("%d/%m/%Y")
 
 def gerar_ra_aleatorio():
     ra_prefixo = "t"

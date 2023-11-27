@@ -85,3 +85,4 @@ def get_next_nota_id(notas):
     return f'ID{max_id + 1}'
 
 
+func_cadastrar_notas()

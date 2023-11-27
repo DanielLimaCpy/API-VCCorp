@@ -17,8 +17,10 @@ def carregar_dados():
         }
     return dados_alunos
 
-def editar_aluno(ra_aluno):
+def editar_aluno(ra_aluno=None):
     dados = carregar_dados()
+    if ra_aluno is None:
+        ra_aluno = input('Informe o RA do aluno que deseja editar: ')
     if ra_aluno in dados['alunos']:
         aluno = dados['alunos'][ra_aluno]
         print(f'Editando dados do aluno RA: {ra_aluno}')
@@ -50,3 +52,5 @@ def editar_aluno(ra_aluno):
     else:
         print(f'O aluno com RA {ra_aluno} não foi encontrado.')
         return False
+
+editar_aluno()

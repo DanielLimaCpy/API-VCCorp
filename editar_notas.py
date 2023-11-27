@@ -51,3 +51,5 @@ def editar_nota():
     else:
         print(f'A nota com ID {nota_id} não foi encontrada.')
         return False
+
+editar_nota()
