@@ -19,8 +19,12 @@ def calcular_media_ponderada():
         dados = carregar_dados()
         notas = dados.get('notas', {})
         listar_alunos(dados)
-        aluno_escolhido = input("Digite o ID do aluno para calcular a média ponderada: ")
-    
+        aluno_escolhido = input("Digite o ID do aluno para calcular a média ponderada (digite '0' para sair): ")
+
+        if aluno_escolhido == '0':
+            print("Saindo do programa.")
+            break
+
         if aluno_escolhido not in dados['alunos']:
             print(f"ERRO: Aluno com ID {aluno_escolhido} não encontrado nos dados.")
             continue

@@ -28,7 +28,6 @@ def gerar_ra_aleatorio():
     ra_numero_aleatorio = ''.join([str(random.randint(0, 9)) for _ in range(3)])
     return f"{ra_prefixo}{ra_numero_aleatorio}"
 
-
 def func_cadastrar_turmas():
     dados = carregar_dados()
     while True:
@@ -44,7 +43,6 @@ def func_cadastrar_turmas():
         else:
             nome_turma = input('Qual o nome da turma? ')
 
-
             while True:
                 dataini = input('Qual a data de início do ciclo? (formato: dd/mm/aaaa) ')
                 data_inicio = obter_data_inicio(dataini)
@@ -52,14 +50,15 @@ def func_cadastrar_turmas():
                 if data_inicio is not None:
                     break  # Saia do loop interno se a data for válida
                 else:
-                    print ('insira uma data valida')
+                    print('Insira uma data válida.')
+
             print(data_inicio.strftime('%d/%m/%Y'))
 
             nova_turma = {
                 'id': id_turma,
                 'nome': nome_turma,
                 'data_de_inicio': data_inicio,
-                
+                'alunos': []  # Adiciona 'alunos' como uma lista vazia
             }
 
             dados['turmas'][id_turma] = nova_turma
@@ -69,7 +68,7 @@ def func_cadastrar_turmas():
 
             # Pergunta se deseja inserir alunos na turma
             inserir_alunos = input('Deseja inserir alunos nesta turma? (S/N): ')
-            
+
             if inserir_alunos.lower() == 's':
                 while True:
                     listar_alunos(dados)
@@ -77,10 +76,14 @@ def func_cadastrar_turmas():
                     if ra_aluno == '0':
                         break
                     if ra_aluno in dados['alunos']:
+                        dados['turmas'][id_turma]['alunos'].append(ra_aluno)
+                        print(f'Aluno com RA {ra_aluno} inserido na turma {id_turma}.')
+
+                        # Salva também nas informações do aluno
                         if 'turmas' not in dados['alunos'][ra_aluno]:
                             dados['alunos'][ra_aluno]['turmas'] = []
                         dados['alunos'][ra_aluno]['turmas'].append(id_turma)
-                        print(f'Aluno com RA {ra_aluno} inserido na turma {id_turma}.')
+
                     else:
                         print(f'Aluno com RA {ra_aluno} não encontrado.')
 

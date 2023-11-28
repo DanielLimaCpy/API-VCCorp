@@ -44,3 +44,14 @@ def listar_notas(dados):
         print(f"Turma: {turma_info.get('nome', 'N/A')}")
         print(f"Score: {nota_info.get('score', 'N/A')}")
         print("-" * 20)
+
+def listar_alunos_turma(dados, turma):
+    if 'alunos' in turma and isinstance(turma['alunos'], list):
+        print("\nLista de Alunos:")
+        for ra in turma['alunos']:
+            if ra in dados['alunos']:
+                aluno = dados['alunos'][ra]
+                print(f"RA: {ra}, Nome: {aluno['nome']}")
+        print("\n")
+    else:
+        print("Nenhum aluno cadastrado nesta turma.\n")
