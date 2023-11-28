@@ -55,3 +55,6 @@ with pd.ExcelWriter('dados.xlsx', engine='openpyxl') as writer:
     ciclos_df.to_excel(writer, sheet_name='Ciclos', index=False)
     grupos_df.to_excel(writer, sheet_name='Grupos', index=False)
     notas_df.to_excel(writer, sheet_name='Notas', index=False)
+
+
+

@@ -84,3 +84,4 @@ def get_next_nota_id(notas):
     max_id = max([int(id[2:]) for id in notas.keys()])
     return f'ID{max_id + 1}'
 
+

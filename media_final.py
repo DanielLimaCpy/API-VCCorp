@@ -19,6 +19,12 @@ def calcular_media_ponderada():
         dados = carregar_dados()
         notas = dados.get('notas', {})
     
+        aluno_escolhido = input("Digite o ID do aluno para calcular a média ponderada: ")
+    
+        if aluno_escolhido not in dados['alunos']:
+            print(f"ERRO: Aluno com ID {aluno_escolhido} não encontrado nos dados.")
+            continue
+    
         media_por_aluno = {}
     
         for nota_id, nota in notas.items():
@@ -26,6 +32,9 @@ def calcular_media_ponderada():
             ciclo_id = nota['ciclo_id']
             score = nota['score']
             peso_ciclo = dados['ciclos'][ciclo_id]['peso_da_nota']
+    
+            if aluno_ra != aluno_escolhido:
+                continue
     
             if aluno_ra not in media_por_aluno:
                 media_por_aluno[aluno_ra] = {'total_score': 0, 'total_peso': 0}
@@ -43,10 +52,8 @@ def calcular_media_ponderada():
                 media_final = total_score / total_peso
             
             # Adiciona a média ponderada (fee) aos dados do aluno sem apagar as informações anteriores
-            if aluno_ra in dados['alunos']:
+            if aluno_ra == aluno_escolhido:
                 dados['alunos'][aluno_ra].setdefault('fee', []).append(round(media_final, 2))
-            else:
-                print(f"AVISO: Aluno com RA {aluno_ra} não encontrado nos dados.")
     
         # Remove os totais de score e peso do JSON
         for aluno in dados['alunos'].values():
@@ -57,10 +64,8 @@ def calcular_media_ponderada():
         with open('dados.json', 'w') as arquivo_json:
             json.dump(dados, arquivo_json, indent=4)
         
-        print("Médias calculadas e salvas")
+        print(f"Médias calculadas e salvas para o aluno com ID {aluno_escolhido}")
     
         opcao = input("Deseja calcular as médias de outros alunos? (s/n): ").lower()
         if opcao != 's':
             break
-
-

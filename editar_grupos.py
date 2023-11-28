@@ -44,14 +44,14 @@ def editar_grupo():
             elif campo == '2':
                 ra_aluno = input('Informe o RA do aluno a ser adicionado: ')
                 if ra_aluno in dados['alunos']:
-                    grupo['Alunos'].append(ra_aluno)
+                    grupo['alunos'].append(ra_aluno)
                     print(f'Aluno com RA {ra_aluno} adicionado ao grupo.')
                 else:
                     print(f"O aluno com RA {ra_aluno} não existe no sistema.")
             elif campo == '3':
                 ra_aluno = input('Informe o RA do aluno a ser removido: ')
-                if ra_aluno in grupo['Alunos']:
-                    grupo['Alunos'].remove(ra_aluno)
+                if ra_aluno in grupo['alunos']:
+                    grupo['alunos'].remove(ra_aluno)
                     print(f'Aluno com RA {ra_aluno} removido do grupo.')
                 else:
                     print(f"O aluno com RA {ra_aluno} não está no grupo.")

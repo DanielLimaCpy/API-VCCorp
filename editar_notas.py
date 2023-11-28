@@ -39,7 +39,7 @@ def editar_nota():
                 else:
                     print('Nota inválida. A nota não foi alterada.')
 
-            elif campo == '':
+            elif campo == '' and campo== 'n':
                 with open('dados.json', 'w') as arquivo_json:
                     json.dump(dados, arquivo_json, indent=4)
                 print('Edição de nota realizada com sucesso.')

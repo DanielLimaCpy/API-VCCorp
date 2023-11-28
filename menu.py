@@ -11,7 +11,7 @@ from editar_ciclos import editar_ciclo
 from editar_notas import editar_nota
 from media_final import calcular_media_ponderada
 from importar_dados_ import iniciar_importacao
-
+from exportar_dados import extrair_dados
 
 def carregar_dados():
     try:
@@ -30,7 +30,7 @@ def carregar_dados():
 while True:
     print("\n" * 2)
     print("Olá administrador!😊 Bem-vindo (a) ao sistema de informação da PBLTex!😄")
-    menu_opcao1 = input("O que você gostaria de acessar?\n1 - Alunos\n2 - Turmas\n3 - Grupos de Alunos\n4 - Ciclos\n5 - Notas\n6 - Sair\n7 - Gráficos\nDigite um número:")
+    menu_opcao1 = input("O que você gostaria de acessar?\n1 - Alunos\n2 - Turmas\n3 - Grupos de Alunos\n4 - Ciclos\n5 - Notas\n6 - Exportar dados\n7 - Sair\nDigite um número:")
     
 
     if menu_opcao1 == "1":
@@ -94,20 +94,21 @@ while True:
                 print("Opção inválida. Tente novamente")
 
     elif menu_opcao1 == "4":
-        menu_opcao2 = input("Qual ação você quer fazer?\nA - Cadastrar\nB - Editar\n0 - Voltar\n").strip().lower()
-        if menu_opcao2 == "a":
-            if func_cadastrar_ciclos():
-                print("\nRetornando ao menu principal.")
+        while True:
+            menu_opcao2 = input("Qual ação você quer fazer?\nA - Cadastrar\nB - Editar\n0 - Voltar\n").strip().lower()
+            if menu_opcao2 == "a":
+                if func_cadastrar_ciclos():
+                    print("\nRetornando ao menu principal.")
+                    break
+            elif menu_opcao2 == "b":
+                if editar_ciclo():
+                    print("\nRetornando ao menu principal.")
+                    break
+            elif menu_opcao2 == "0":
                 break
-        elif menu_opcao2 == "b":
-            if editar_ciclo():
-                print("\nRetornando ao menu principal.")
-                break
-        elif menu_opcao2 == "0":
-            break
-        else:
-            print("Opção inválida. Tente novamente")
-            
+            else:
+                print("Opção inválida. Tente novamente")
+                
     elif menu_opcao1 == "5":
         while True:
             menu_opcao2 = input("Qual ação você quer fazer?\nA - Cadastrar\nB - Editar\nC - FEE\n0 - Voltar\n").strip().lower()
@@ -130,20 +131,14 @@ while True:
             else:
                 print("Opção inválida. Tente novamente")
 
-    # ... (seu código anterior)
-
-    elif menu_opcao1 == "6":
-        break
     elif menu_opcao1 == "7":
+        break
+    elif menu_opcao1 == "6":
         while True:
-            menu_opcao7 = input(''' Qual ação você quer fazer?
-                                A - Gráfico de Barras Agrupadas por Ciclo e Aluno:
-                                B - Gráfico de Linhas Temporais de Progressão do Desempenho:
-                                C - Gráfico de Dispersão de Relação entre Idade e Média Ponderada:
-                                0 - Voltar                            
-
-                                ''').strip().lower()
-            
+            dados = carregar_dados()
+            alunos_df, turmas_df, ciclos_df, grupos_df, notas_df = extrair_dados(dados)
+            print("\nseus dados foram exportardos para arquvio .xlsx")
+            break
     else:
         print("Opção inválida.")
         continue
