@@ -24,26 +24,28 @@ def editar_nota():
     if nota_id in dados['notas']:
         nota = dados['notas'][nota_id]
         print(f'Editando nota com ID: {nota_id}')
+        
         while True:
             print(f' Aluno: {dados["alunos"].get(nota["aluno_ra"], {}).get("nome")}')
             print(f' Ciclo: {dados["ciclos"].get(nota["ciclo_id"], {}).get("nome")}')
             print(f' Turma: {dados["turmas"].get(nota["turma_id"], {}).get("nome")}')
             print(f' Score: {nota["score"]}')
 
-            campo = input('Escolha o campo que deseja editar alguma nota(S/N)? ').strip().lower()
+            campo = input('Escolha o campo que deseja editar alguma nota (S para Score, N para Sair): ').strip().lower()
 
             if campo == 's':
                 nova_nota = float(input('Informe a nova nota: '))
                 if 0 <= nova_nota <= 10:
                     nota["score"] = nova_nota
+                    print('Nota editada com sucesso.')
                 else:
                     print('Nota inválida. A nota não foi alterada.')
 
-            elif campo == '' and campo== 'n':
+            elif campo == 'n':
                 with open('dados.json', 'w') as arquivo_json:
                     json.dump(dados, arquivo_json, indent=4)
                 print('Edição de nota realizada com sucesso.')
-                return True
+                break
 
             else:
                 print('Opção inválida. Tente novamente.')

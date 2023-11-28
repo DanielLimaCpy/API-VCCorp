@@ -1,382 +1,168 @@
 {
     "alunos": {
-        "1": {
-            "ra": "1",
-            "nome": "aa",
-            "idade": "12",
-            "email": "aa@aa.com",
+        "RA431": {
+            "ra": "RA431",
+            "nome": "Daniel",
+            "idade": "23",
+            "email": "Daniel@gmail.com",
             "turmas": [
-                "1",
-                "t6959989",
-                "t8890634"
+                "T515"
             ],
             "grupos": [
-                "g2422223",
-                "g0330150"
+                "G033"
             ],
             "fee": [
-                7.14,
-                5.69,
-                5.69
+                5.72
             ]
         },
-        "2": {
-            "ra": "2",
-            "nome": "bia",
-            "idade": "21",
-            "email": "bb@bb.com",
+        "RA794": {
+            "ra": "RA794",
+            "nome": "Edu",
+            "idade": "24",
+            "email": "Edu@gmail.com",
             "turmas": [
-                "1",
-                "t8890634"
+                "T515"
             ],
             "grupos": [
-                "g0330150"
+                "G033"
+            ],
+            "fee": [
+                7.28
             ]
         },
-        "ra2240429": {
-            "ra": "ra2240429",
-            "nome": "daniel",
-            "idade": "20",
-            "email": "dainiel@aa.com",
-            "turmas": [],
-            "grupos": []
-        },
-        "ra0767917": {
-            "ra": "ra0767917",
-            "nome": "juaaa",
-            "idade": "23",
-            "email": "dd@dn.com",
-            "turmas": [],
-            "grupos": []
-        },
-        "ra9392101": {
-            "ra": "ra9392101",
-            "nome": "juao",
-            "idade": "23",
-            "email": "aa@aa.com",
-            "turmas": [],
-            "grupos": []
-        },
-        "ra8095505": {
-            "ra": "ra8095505",
-            "nome": "daniel",
-            "idade": "20",
-            "email": "bb@bb.com",
-            "turmas": [],
-            "grupos": []
-        },
-        "ra054": {
-            "ra": "ra054",
-            "nome": "daniel",
-            "idade": "20",
-            "email": "da@da.com",
-            "turmas": [],
-            "grupos": []
-        },
-        "ra432": {
-            "ra": "ra432",
-            "nome": "junn",
-            "idade": "3",
-            "email": "dani@dan.com",
-            "turmas": [],
-            "grupos": []
+        "RA754": {
+            "ra": "RA754",
+            "nome": "Pedro",
+            "idade": "22",
+            "email": "pedro@gmail.com",
+            "turmas": [
+                "T515"
+            ],
+            "grupos": [
+                "G033"
+            ],
+            "fee": [
+                7.89
+            ]
         }
     },
     "turmas": {
-        "1": {
-            "id": "1",
-            "nome": "T1",
-            "data_de_inicio": "12",
+        "T515": {
+            "id": "T515",
+            "nome": "1API",
+            "data_de_inicio": "29/11/2023",
             "ciclos": [
                 {
-                    "id": "1",
-                    "nome": "C1",
-                    "data_de_inicio": "12",
-                    "data_de_fim": "21",
-                    "peso_da_nota": "3"
-                },
-                {
-                    "id": "2",
-                    "nome": "C2",
-                    "data_de_inicio": "23",
-                    "data_de_fim": "32",
-                    "peso_da_nota": "4"
-                },
-                {
-                    "id": "c9878959",
-                    "nome": "C3",
-                    "data_de_inicio": "12/12/2024",
-                    "data_de_fim": "13/12/2024",
-                    "peso_da_nota": "6"
-                },
-                {
-                    "id": "c4088151",
-                    "nome": "aba",
-                    "data_de_inicio": "02/10/2024",
-                    "data_de_fim": "01/11/2024",
-                    "peso_da_nota": "5"
-                },
-                {
-                    "id": "c4238120",
-                    "nome": "c4",
-                    "data_de_inicio": "27/11/2023",
-                    "data_de_fim": "28/11/2023",
-                    "peso_da_nota": "6"
-                },
-                {
-                    "id": "c1773595",
-                    "nome": "aaaaa",
-                    "data_de_inicio": "27/11/2023",
-                    "data_de_fim": "27/12/2023",
-                    "peso_da_nota": "7"
-                },
-                {
-                    "id": "c5717717",
-                    "nome": "3",
-                    "data_de_inicio": "12/12/2023",
-                    "data_de_fim": "12/12/2023",
-                    "peso_da_nota": "6"
-                },
-                {
-                    "id": "c6884323",
-                    "nome": "c9878959",
+                    "id": "C080",
+                    "nome": "Python basico ",
                     "data_de_inicio": "28/11/2023",
-                    "data_de_fim": "29/11/2023",
-                    "peso_da_nota": "6"
+                    "data_de_fim": "28/12/2023",
+                    "peso_da_nota": "5"
                 },
                 {
-                    "id": "c5390957",
-                    "nome": "aaaaaaaa",
-                    "data_de_inicio": "29/11/2023",
-                    "data_de_fim": "30/11/2023",
-                    "peso_da_nota": "7"
+                    "id": "C138",
+                    "nome": "JAVA ",
+                    "data_de_inicio": "01/01/2024",
+                    "data_de_fim": "01/02/2024",
+                    "peso_da_nota": "8"
                 },
                 {
-                    "id": "C882",
-                    "nome": "nadalete ",
-                    "data_de_inicio": "27/11/2023",
-                    "data_de_fim": "27/12/2023",
+                    "id": "C006",
+                    "nome": "BD ",
+                    "data_de_inicio": "02/02/2024",
+                    "data_de_fim": "02/03/2024",
                     "peso_da_nota": "5"
-                }
-            ]
-        },
-        "233": {
-            "id": "233",
-            "nome": "teste",
-            "data_de_inicio": "12/12/2023",
-            "ciclos": [
-                {
-                    "id": "c6577440",
-                    "nome": "Python",
-                    "data_de_inicio": "12/12/2023",
-                    "data_de_fim": "01/01/2024",
-                    "peso_da_nota": "5"
-                }
-            ]
-        },
-        "t0309828": {
-            "id": "t0309828",
-            "nome": "teste 2",
-            "data_de_inicio": "12/12/2023"
-        },
-        "t6085497": {
-            "id": "t6085497",
-            "nome": "teste3",
-            "data_de_inicio": "12/12/2023"
-        },
-        "t6959989": {
-            "id": "t6959989",
-            "nome": "aa",
-            "data_de_inicio": "12/12/2024"
-        },
-        "t8890634": {
-            "id": "t8890634",
-            "nome": "os batutinhas",
-            "data_de_inicio": "31/01/2024"
-        },
-        "t3093321": {
-            "id": "t3093321",
-            "nome": "app",
-            "data_de_inicio": "20/12/2023"
-        },
-        "t5300480": {
-            "id": "t5300480",
-            "nome": "133",
-            "data_de_inicio": "12/12/2023",
-            "ciclos": [
-                {
-                    "id": "C039",
-                    "nome": "java",
-                    "data_de_inicio": "12/12/2024",
-                    "data_de_fim": "13/12/2024",
-                    "peso_da_nota": "6"
                 }
             ]
         }
     },
     "ciclos": {
-        "1": {
-            "id": "1",
-            "nome": "C1",
-            "data_de_inicio": "20/12/2023",
-            "data_de_fim": "22/12/2023",
-            "peso_da_nota": "3"
-        },
-        "2": {
-            "id": "2",
-            "nome": "C2",
-            "data_de_inicio": "23/23233",
-            "data_de_fim": "32",
-            "peso_da_nota": "6"
-        },
-        "c6577440": {
-            "id": "c6577440",
-            "nome": "teste a",
-            "data_de_inicio": "14/12/2022",
-            "data_de_fim": "30/30/30",
-            "peso_da_nota": "5"
-        },
-        "c9878959": {
-            "id": "c9878959",
-            "nome": "C3",
-            "data_de_inicio": "12/12/2024",
-            "data_de_fim": "13/12/2024",
-            "peso_da_nota": "6"
-        },
-        "c4088151": {
-            "id": "c4088151",
-            "nome": "aba",
-            "data_de_inicio": "02/10/2024",
-            "data_de_fim": "01/11/2024",
-            "peso_da_nota": "5"
-        },
-        "c4238120": {
-            "id": "c4238120",
-            "nome": "c4",
-            "data_de_inicio": "27/11/2023",
-            "data_de_fim": "28/11/2023",
-            "peso_da_nota": "6"
-        },
-        "c1773595": {
-            "id": "c1773595",
-            "nome": "aaaaa",
-            "data_de_inicio": "27/11/2023",
-            "data_de_fim": "27/12/2023",
-            "peso_da_nota": "7"
-        },
-        "c5717717": {
-            "id": "c5717717",
-            "nome": "3",
-            "data_de_inicio": "16/12/2023",
-            "data_de_fim": "16/12/2023",
-            "peso_da_nota": "6"
-        },
-        "c6884323": {
-            "id": "c6884323",
-            "nome": "c9878959",
+        "C080": {
+            "id": "C080",
+            "nome": "Python basico ",
             "data_de_inicio": "28/11/2023",
-            "data_de_fim": "29/11/2023",
-            "peso_da_nota": "6"
-        },
-        "c5390957": {
-            "id": "c5390957",
-            "nome": "aaaaaaaa",
-            "data_de_inicio": "29/11/2023",
-            "data_de_fim": "30/11/2023",
-            "peso_da_nota": "7"
-        },
-        "C882": {
-            "id": "C882",
-            "nome": "Nada",
-            "data_de_inicio": "27/11/2023",
             "data_de_fim": "27/12/2023",
             "peso_da_nota": "5"
         },
-        "C039": {
-            "id": "C039",
-            "nome": "java",
-            "data_de_inicio": "12/12/2024",
-            "data_de_fim": "13/12/2024",
-            "peso_da_nota": "6"
+        "C138": {
+            "id": "C138",
+            "nome": "JAVA ",
+            "data_de_inicio": "01/01/2024",
+            "data_de_fim": "01/02/2024",
+            "peso_da_nota": "8"
+        },
+        "C006": {
+            "id": "C006",
+            "nome": "BD ",
+            "data_de_inicio": "02/02/2024",
+            "data_de_fim": "02/03/2024",
+            "peso_da_nota": "5"
         }
     },
     "grupos": {
-        "1": {
-            "id": "1",
-            "nome": "aabb",
+        "G033": {
+            "id": "G033",
+            "nome": "SEMESTRE 1 ",
             "alunos": [
-                "1",
-                "2"
-            ]
-        },
-        "g2391477": {
-            "id": "g2391477",
-            "nome": "hobbit's house",
-            "alunos": [
-                "1",
-                "1",
-                "1",
-                "1",
-                "1",
-                "1",
-                "2"
-            ]
-        },
-        "3": {
-            "id": "3",
-            "nome": "daaaa",
-            "alunos": [
-                "1",
-                "1",
-                "1",
-                "1",
-                "1",
-                "1",
-                "1",
-                "2"
-            ]
-        },
-        "g2422223": {
-            "id": "g2422223",
-            "nome": "aaa",
-            "alunos": [
-                "1"
-            ]
-        },
-        "g0330150": {
-            "id": "g0330150",
-            "nome": "faa",
-            "alunos": [
-                "1",
-                "2"
-            ]
-        },
-        "G435": {
-            "id": "G435",
-            "nome": "c",
-            "alunos": [
-                "ra054"
+                "RA794",
+                "RA754"
             ]
         }
     },
     "notas": {
         "ID1": {
-            "aluno_ra": "1",
-            "ciclo_id": "1",
-            "turma_id": "1",
-            "score": 5.0
+            "aluno_ra": "RA431",
+            "ciclo_id": "C080",
+            "turma_id": "T515",
+            "score": 7.0
         },
         "ID2": {
-            "aluno_ra": "1",
-            "ciclo_id": "2",
-            "turma_id": "1",
-            "score": 8.0
+            "aluno_ra": "RA794",
+            "ciclo_id": "C080",
+            "turma_id": "T515",
+            "score": 5.0
         },
         "ID3": {
-            "aluno_ra": "1",
-            "ciclo_id": "c1773595",
-            "turma_id": "1",
+            "aluno_ra": "RA754",
+            "ciclo_id": "C080",
+            "turma_id": "T515",
+            "score": 8.0
+        },
+        "ID4": {
+            "aluno_ra": "RA431",
+            "ciclo_id": "C138",
+            "turma_id": "T515",
+            "score": 6.0
+        },
+        "ID5": {
+            "aluno_ra": "RA794",
+            "ciclo_id": "C138",
+            "turma_id": "T515",
+            "score": 7.0
+        },
+        "ID6": {
+            "aluno_ra": "RA754",
+            "ciclo_id": "C138",
+            "turma_id": "T515",
+            "score": 9.0
+        },
+        "ID7": {
+            "aluno_ra": "RA431",
+            "ciclo_id": "C006",
+            "turma_id": "T515",
             "score": 4.0
+        },
+        "ID8": {
+            "aluno_ra": "RA794",
+            "ciclo_id": "C006",
+            "turma_id": "T515",
+            "score": 10.0
+        },
+        "ID9": {
+            "aluno_ra": "RA754",
+            "ciclo_id": "C006",
+            "turma_id": "T515",
+            "score": 6.0
         }
     }
 }

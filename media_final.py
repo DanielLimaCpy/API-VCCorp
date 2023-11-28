@@ -1,5 +1,5 @@
 import json
-from listagem import listar_alunos_simples
+from listagem import listar_alunos
 def carregar_dados():
     try:
         with open('dados.json', 'r') as arquivo_json:
@@ -18,7 +18,7 @@ def calcular_media_ponderada():
     while True:
         dados = carregar_dados()
         notas = dados.get('notas', {})
-        listar_alunos_simples(dados)
+        listar_alunos(dados)
         aluno_escolhido = input("Digite o ID do aluno para calcular a média ponderada: ")
     
         if aluno_escolhido not in dados['alunos']:

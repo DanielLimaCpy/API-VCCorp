@@ -1,5 +1,5 @@
 import json
-from listagem import listar_alunos_simples
+from listagem import listar_alunos
 
 def carregar_dados():
     try:
@@ -16,39 +16,48 @@ def carregar_dados():
         }
     return dados_alunos
 
-def editar_aluno(ra_aluno=None):
-    dados = carregar_dados()
-    listar_alunos_simples(dados)
-    if ra_aluno is None:
-        ra_aluno = input('Informe o RA do aluno que deseja editar: ')
-    if ra_aluno in dados['alunos']:
-        aluno = dados['alunos'][ra_aluno]
-        print(f'Editando dados do aluno RA: {ra_aluno}')
-        while True:
-            print(f'1 - Nome: {aluno["nome"]}')
-            print(f'2 - Idade: {aluno["idade"]}')
-            print(f'3 - E-mail: {aluno["email"]}')
+def editar_aluno():
+    while True:
+        dados = carregar_dados()
 
-            campo = input('Escolha o campo que deseja editar (1/2/3), 4 para cancelar ou 5 para salvar: ')
-            if campo == '1':
-                aluno['nome'] = input('Novo Nome: ')
-            elif campo == '2':
-                aluno['idade'] = input('Nova Idade: ')
-            elif campo == '3':
-                aluno['email'] = input('Novo E-mail: ')
-            elif campo == '4':
-                break
-            elif campo == '5':
-                dados['alunos'][ra_aluno] = aluno
-                with open('dados.json', 'w') as arquivo_json:
-                    json.dump(dados, arquivo_json, indent=4)
-                print('Cadastro atualizado com sucesso.')
-                return True
-            else:
-                print('Opção inválida. Tente novamente.')
-        if campo != '4':
+        listar_alunos(dados)
+
+        ra_aluno = input('Informe o RA do aluno que deseja editar (pressione Enter para sair): ')
+
+        if ra_aluno == '':
+            break  # Saia do loop se o usuário pressionar Enter sem digitar nada
+
+        if ra_aluno in dados['alunos']:
+            aluno = dados['alunos'][ra_aluno]
+            print(f'Editando dados do aluno RA: {ra_aluno}')
+
+            while True:
+                print(f'1 - Nome: {aluno["nome"]}')
+                print(f'2 - Idade: {aluno["idade"]}')
+                print(f'3 - E-mail: {aluno["email"]}')
+
+                campo = input('Escolha o campo que deseja editar (1/2/3), 4 para cancelar ou 5 para salvar: ')
+
+                if campo == '1':
+                    aluno['nome'] = input('Novo Nome: ')
+                elif campo == '2':
+                    aluno['idade'] = input('Nova Idade: ')
+                elif campo == '3':
+                    aluno['email'] = input('Novo E-mail: ')
+                elif campo == '4':
+                    break
+                elif campo == '5':
+                    dados['alunos'][ra_aluno] = aluno
+                    with open('dados.json', 'w') as arquivo_json:
+                        json.dump(dados, arquivo_json, indent=4)
+                    print('Cadastro atualizado com sucesso.')
+                    return True
+                else:
+                    print('Opção inválida. Tente novamente.')
+
             print('Cadastro atualizado com sucesso.')
             return False
-    else:
-        print(f'O aluno com RA {ra_aluno} não foi encontrado.')
-        return False
+        else:
+            print(f'O aluno com RA {ra_aluno} não foi encontrado.')
+
+

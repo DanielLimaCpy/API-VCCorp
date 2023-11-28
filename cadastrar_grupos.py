@@ -1,7 +1,7 @@
 import json
 from editar_grupos import editar_grupo
 from editar_alunos import editar_aluno 
-from listagem import listar_alunos_simples
+from listagem import listar_alunos
 import random
 
 def carregar_dados():
@@ -40,7 +40,7 @@ def func_cadastrar_grupos():
             alunos_grupo = []  # Lista para armazenar os RAs dos alunos
 
             while True:
-                listar_alunos_simples(dados)
+                listar_alunos(dados)
                 ra_aluno = input('Informe o RA de um aluno (ou deixe em branco para encerrar): ')
                 if not ra_aluno:
                     break

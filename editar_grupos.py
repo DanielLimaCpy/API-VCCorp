@@ -1,6 +1,6 @@
 import json
 from listagem import listar_grupos
-from listagem import listar_alunos_simples
+from listagem import listar_alunos
 def carregar_dados():
     try:
         with open('dados.json', 'r') as arquivo_json:
@@ -37,7 +37,7 @@ def editar_grupo():
             if campo == '1':
                 grupo['Nome'] = input('Novo Nome: ')
             elif campo == '2':
-                listar_alunos_simples(dados)
+                listar_alunos(dados)
                 ra_aluno = input('Informe o RA do aluno a ser adicionado: ')
                 if ra_aluno in dados['alunos']:
                     grupo['alunos'].append(ra_aluno)

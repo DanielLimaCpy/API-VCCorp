@@ -3,7 +3,7 @@ from editar_turmas import editar_turma
 from validacao_data import obter_data_inicio
 from datetime import datetime
 import random
-from listagem import listar_alunos_simples
+from listagem import listar_alunos
 
 def carregar_dados():
     try:
@@ -24,8 +24,8 @@ def default_serializer(obj):
         return obj.strftime("%d/%m/%Y")
 
 def gerar_ra_aleatorio():
-    ra_prefixo = "t"
-    ra_numero_aleatorio = ''.join([str(random.randint(0, 9)) for _ in range(7)])
+    ra_prefixo = "T"
+    ra_numero_aleatorio = ''.join([str(random.randint(0, 9)) for _ in range(3)])
     return f"{ra_prefixo}{ra_numero_aleatorio}"
 
 
@@ -72,7 +72,7 @@ def func_cadastrar_turmas():
             
             if inserir_alunos.lower() == 's':
                 while True:
-                    listar_alunos_simples(dados)
+                    listar_alunos(dados)
                     ra_aluno = input('Informe o RA do aluno a ser inserido na turma (ou "0" para encerrar): ')
                     if ra_aluno == '0':
                         break

@@ -1,4 +1,5 @@
 import json
+import os
 from cadastrar_aluno import func_cadastrar_alunos
 from cadastrar_turmas import func_cadastrar_turmas
 from cadastrar_grupos import func_cadastrar_grupos
@@ -10,8 +11,8 @@ from editar_grupos import editar_grupo
 from editar_ciclos import editar_ciclo  
 from editar_notas import editar_nota
 from media_final import calcular_media_ponderada
-from importar_dados_ import iniciar_importacao
-from exportar_dados import extrair_dados
+from exportar_dados import criar_planilha_excel
+
 
 def carregar_dados():
     try:
@@ -44,13 +45,10 @@ while True:
                     else:
                         print("\nO cadastro foi cancelado.")
                     break  
-                 
-                    
-                
 
             elif menu_opcao2 == "b":
-                ra_aluno = input("Informe o RA do aluno que você quer editar: ")
-                if editar_aluno(ra_aluno):
+                
+                if editar_aluno():
                     print("\nRetornando ao menu principal.")
                     break  
                 else:
@@ -130,15 +128,17 @@ while True:
                 break
             else:
                 print("Opção inválida. Tente novamente")
-
-    elif menu_opcao1 == "7":
-        break
     elif menu_opcao1 == "6":
         while True:
-            dados = carregar_dados()
-            alunos_df, turmas_df, ciclos_df, grupos_df, notas_df = extrair_dados(dados)
-            print("\nseus dados foram exportardos para arquvio .xlsx")
+            if os.path.exists('dados.json'):
+                criar_planilha_excel('dados.json', 'dados_completos.xlsx')
+                print("\nSeus dados foram exportados para o arquivo .xlsx.")
+            else:
+                print("\nO arquivo 'dados.json' não foi encontrado no diretório.")
             break
+    elif menu_opcao1 == "7":
+        break
+    
     else:
         print("Opção inválida.")
         continue

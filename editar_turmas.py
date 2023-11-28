@@ -1,5 +1,6 @@
 import json
 from listagem import listar_turmas
+
 def carregar_dados_alunos():
     try:
         with open('dados.json', 'r') as arquivo_dados_alunos_json:

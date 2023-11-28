@@ -1,60 +1,68 @@
 import pandas as pd
 import json
-# Carregar o JSON a partir do arquivo
-with open('dados.json', 'r') as file:
-    seu_json = json.load(file)
+import openpyxl
 
-# Função para extrair informações do JSON e organizar em um DataFrame
-def extrair_dados(json_data):
-    alunos_data = []
-    turmas_data = []
-    ciclos_data = []
-    grupos_data = []
-    notas_data = []
+def criar_planilha_excel(json_file, nome_arquivo_excel):
+    with open(json_file, 'r') as file:
+        dados = json.load(file)
 
-    for aluno_id, aluno_info in json_data["alunos"].items():
-        aluno_data = {"ID": aluno_id}
-        aluno_data.update(aluno_info)
-        alunos_data.append(aluno_data)
+    def remove_colchetes(value):
+        if isinstance(value, list):
+            return ', '.join(map(str, value))
+        return value
 
-    for turma_id, turma_info in json_data["turmas"].items():
-        turma_data = {"ID": turma_id}
-        turma_data.update(turma_info)
-        turmas_data.append(turma_data)
 
-        for ciclo_info in turma_info.get("ciclos", []):
-            ciclo_data = {"ID": ciclo_info["id"]}
-            ciclo_data.update(ciclo_info)
-            ciclos_data.append(ciclo_data)
+    with pd.ExcelWriter(nome_arquivo_excel, engine='openpyxl') as writer:
+    
+        secoes = ["alunos", "grupos", "turmas", "ciclos", "notas"]
+        for secao in secoes:
+           
+            secao_data = dados.get(secao, {})
 
-    for grupo_id, grupo_info in json_data["grupos"].items():
-        grupo_data = {"ID": grupo_id}
-        grupo_data.update(grupo_info)
-        grupos_data.append(grupo_data)
+         
+            if secao == "turmas":
+                turmas_dict = {}
+                for turma_id, turma_data in secao_data.items():
+                    ciclo_ids = [ciclo["id"] for ciclo in turma_data.get("ciclos", [])]
+                    turma_data["ciclos"] = ', '.join(ciclo_ids)
+                    turmas_dict[turma_id] = turma_data
 
-    for nota_id, nota_info in json_data["notas"].items():
-        nota_data = {"ID": nota_id}
-        nota_data.update(nota_info)
-        notas_data.append(nota_data)
+                df_secao = pd.DataFrame.from_dict(turmas_dict, orient='index').applymap(remove_colchetes)
+            else:
+                df_secao = pd.DataFrame.from_dict(secao_data, orient='index').applymap(remove_colchetes)
 
-    alunos_df = pd.DataFrame(alunos_data)
-    turmas_df = pd.DataFrame(turmas_data)
-    ciclos_df = pd.DataFrame(ciclos_data)
-    grupos_df = pd.DataFrame(grupos_data)
-    notas_df = pd.DataFrame(notas_data)
+            # Salvando na planilha Excel
+            df_secao.to_excel(writer, index=False, sheet_name=secao.capitalize())
 
-    return alunos_df, turmas_df, ciclos_df, grupos_df, notas_df
+            sheet = writer.sheets[secao.capitalize()]
 
-# Extrair dados do JSON
-alunos_df, turmas_df, ciclos_df, grupos_df, notas_df = extrair_dados(seu_json)
+            for column in sheet.columns:
+                max_length = 0
+                column = [cell for cell in column]
+                series = pd.Series(column)
 
-# Salvar os DataFrames em arquivos Excel
-with pd.ExcelWriter('dados.xlsx', engine='openpyxl') as writer:
-    alunos_df.to_excel(writer, sheet_name='Alunos', index=False)
-    turmas_df.to_excel(writer, sheet_name='Turmas', index=False)
-    ciclos_df.to_excel(writer, sheet_name='Ciclos', index=False)
-    grupos_df.to_excel(writer, sheet_name='Grupos', index=False)
-    notas_df.to_excel(writer, sheet_name='Notas', index=False)
+                if series.dtype == 'O':  # Verifica se a coluna é de tipo string
+                    max_length = max(
+                        series.astype(str).apply(len).max(),  # Este é o comprimento do cabeçalho da coluna
+                        series.str.len().max()  # Isso é para o comprimento do conteúdo máximo da coluna
+                    )
+
+                # Definindo limites mínimo e máximo para a largura da coluna
+                min_width = 8  # Largura mínima
+                max_width = 60  # Largura máxima
+
+                # Ajustando a largura da coluna para o máximo encontrado dentro dos limites
+                adjusted_width = max(min(max_length + 2, max_width), min_width)
+                sheet.column_dimensions[chr(65 + column[0].column)].width = adjusted_width
+
+            # Centralizando todas as células
+            for row in sheet.iter_rows(min_row=1, max_row=sheet.max_row, min_col=1, max_col=sheet.max_column):
+                for cell in row:
+                    cell.alignment = openpyxl.styles.Alignment(horizontal='center')
+
+    print(f'Arquivo Excel "{nome_arquivo_excel}" criado com sucesso.')
+
+
 
 
 

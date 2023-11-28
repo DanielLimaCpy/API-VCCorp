@@ -24,7 +24,7 @@ def listar_grupos(dados):
             aluno_info = dados["alunos"].get(aluno_id, {})
             print(f"- Nome: {aluno_info.get('nome', 'N/A')}, RA: {aluno_info.get('ra', 'N/A')}")
         print("-" * 20)
-def listar_alunos_simples(dados):
+def listar_alunos(dados):
     print("Alunos presentes:")
     for aluno_id, aluno_info in dados.get("alunos", {}).items():
         print(f"ID do Aluno: {aluno_id}")
