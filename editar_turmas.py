@@ -1,5 +1,5 @@
 import json
-
+from listagem import listar_turmas
 def carregar_dados_alunos():
     try:
         with open('dados.json', 'r') as arquivo_dados_alunos_json:
@@ -15,12 +15,6 @@ def carregar_dados_alunos():
         }
     return dados_alunos
 
-def listar_turmas(dados):
-    print("Turmas presentes:")
-    for turma_id, turma_info in dados.get("turmas", {}).items():
-        print(f"ID da Turma: {turma_id}")
-        print(f"Nome da Turma: {turma_info['nome']}")
-        print("-" * 20)
 
 def editar_turma():
     dados = carregar_dados_alunos()

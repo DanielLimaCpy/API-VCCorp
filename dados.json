@@ -64,6 +64,22 @@
             "email": "bb@bb.com",
             "turmas": [],
             "grupos": []
+        },
+        "ra054": {
+            "ra": "ra054",
+            "nome": "daniel",
+            "idade": "20",
+            "email": "da@da.com",
+            "turmas": [],
+            "grupos": []
+        },
+        "ra432": {
+            "ra": "ra432",
+            "nome": "junn",
+            "idade": "3",
+            "email": "dani@dan.com",
+            "turmas": [],
+            "grupos": []
         }
     },
     "turmas": {
@@ -134,6 +150,13 @@
                     "data_de_inicio": "29/11/2023",
                     "data_de_fim": "30/11/2023",
                     "peso_da_nota": "7"
+                },
+                {
+                    "id": "C882",
+                    "nome": "nadalete ",
+                    "data_de_inicio": "27/11/2023",
+                    "data_de_fim": "27/12/2023",
+                    "peso_da_nota": "5"
                 }
             ]
         },
@@ -170,6 +193,25 @@
             "id": "t8890634",
             "nome": "os batutinhas",
             "data_de_inicio": "31/01/2024"
+        },
+        "t3093321": {
+            "id": "t3093321",
+            "nome": "app",
+            "data_de_inicio": "20/12/2023"
+        },
+        "t5300480": {
+            "id": "t5300480",
+            "nome": "133",
+            "data_de_inicio": "12/12/2023",
+            "ciclos": [
+                {
+                    "id": "C039",
+                    "nome": "java",
+                    "data_de_inicio": "12/12/2024",
+                    "data_de_fim": "13/12/2024",
+                    "peso_da_nota": "6"
+                }
+            ]
         }
     },
     "ciclos": {
@@ -242,6 +284,20 @@
             "data_de_inicio": "29/11/2023",
             "data_de_fim": "30/11/2023",
             "peso_da_nota": "7"
+        },
+        "C882": {
+            "id": "C882",
+            "nome": "Nada",
+            "data_de_inicio": "27/11/2023",
+            "data_de_fim": "27/12/2023",
+            "peso_da_nota": "5"
+        },
+        "C039": {
+            "id": "C039",
+            "nome": "java",
+            "data_de_inicio": "12/12/2024",
+            "data_de_fim": "13/12/2024",
+            "peso_da_nota": "6"
         }
     },
     "grupos": {
@@ -293,6 +349,13 @@
             "alunos": [
                 "1",
                 "2"
+            ]
+        },
+        "G435": {
+            "id": "G435",
+            "nome": "c",
+            "alunos": [
+                "ra054"
             ]
         }
     },

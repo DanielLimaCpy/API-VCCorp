@@ -1,7 +1,7 @@
 import json
 from datetime import datetime
 from validacao_data import obter_data_inicio
-
+from listagem import listar_ciclos
 def default_serializer(obj):
     if isinstance(obj, datetime):
         return obj.strftime("%d/%m/%Y")
@@ -19,13 +19,6 @@ def carregar_dados():
             "notas": {}
         }
     return dados  # Retorna todos os dados do JSON
-
-def listar_ciclos(dados):
-    print("Ciclos existentes:")
-    for ciclo_id, ciclo_info in dados["ciclos"].items():
-        print(f"ID do Ciclo: {ciclo_id}")
-        print(f"Nome do Ciclo: {ciclo_info['nome']}")
-        print("-" * 20)
 
 # Função para verificar se um ciclo já existe nos dados
 def ciclo_existe(id_ciclo, dados):

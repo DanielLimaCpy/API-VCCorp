@@ -1,5 +1,5 @@
 import json
-
+from listagem import listar_notas
 
 def carregar_dados():
     try:
@@ -18,7 +18,7 @@ def carregar_dados():
 
 def editar_nota():
     dados = carregar_dados()
-
+    listar_notas(dados)
     nota_id = input("Digite o ID da nota que deseja editar: ")
 
     if nota_id in dados['notas']:

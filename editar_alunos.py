@@ -1,6 +1,5 @@
 import json
-
-
+from listagem import listar_alunos_simples
 
 def carregar_dados():
     try:
@@ -19,6 +18,7 @@ def carregar_dados():
 
 def editar_aluno(ra_aluno=None):
     dados = carregar_dados()
+    listar_alunos_simples(dados)
     if ra_aluno is None:
         ra_aluno = input('Informe o RA do aluno que deseja editar: ')
     if ra_aluno in dados['alunos']:

@@ -1,5 +1,5 @@
 import json
-
+from listagem import listar_alunos_simples
 def carregar_dados():
     try:
         with open('dados.json', 'r') as arquivo_json:
@@ -16,6 +16,7 @@ def carregar_dados():
 
 def func_cadastrar_notas():
     dados = carregar_dados()
+    listar_alunos_simples(dados)
     ra_aluno = input('Informe o RA do aluno para lançar a nota: ')
     
     if ra_aluno not in dados['alunos']:

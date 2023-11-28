@@ -2,6 +2,7 @@ import json
 from editar_ciclos import editar_ciclo
 from datetime import datetime
 from validacao_data import obter_data_inicio
+from listagem import listar_turmas
 import random
 
 def default_serializer(obj):
@@ -9,8 +10,8 @@ def default_serializer(obj):
         return obj.strftime("%d/%m/%Y")
 
 def gerar_id_aleatorio():
-    id_prefixo = "c"
-    id_numero_aleatorio = ''.join([str(random.randint(0, 9)) for _ in range(7)])
+    id_prefixo = "C"
+    id_numero_aleatorio = ''.join([str(random.randint(0, 9)) for _ in range(3)])
     return f"{id_prefixo}{id_numero_aleatorio}"
 
 def carregar_dados():
@@ -35,7 +36,7 @@ def ciclo_existe(id_ciclo, dados):
 def func_cadastrar_ciclos():
     while True:
         dados = carregar_dados()
-
+        listar_turmas(dados)
         # Pergunta em qual turma deseja acrescentar um ciclo
         id_turma = input('Informe o ID da turma em que deseja adicionar um ciclo (0 para voltar): ')
 

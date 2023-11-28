@@ -3,6 +3,7 @@ from editar_turmas import editar_turma
 from validacao_data import obter_data_inicio
 from datetime import datetime
 import random
+from listagem import listar_alunos_simples
 
 def carregar_dados():
     try:
@@ -68,8 +69,10 @@ def func_cadastrar_turmas():
 
             # Pergunta se deseja inserir alunos na turma
             inserir_alunos = input('Deseja inserir alunos nesta turma? (S/N): ')
+            
             if inserir_alunos.lower() == 's':
                 while True:
+                    listar_alunos_simples(dados)
                     ra_aluno = input('Informe o RA do aluno a ser inserido na turma (ou "0" para encerrar): ')
                     if ra_aluno == '0':
                         break

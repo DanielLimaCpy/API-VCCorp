@@ -1,6 +1,7 @@
 import json
 import random
 
+
 def carregar_dados_alunos():
     try:
         with open('dados.json', 'r') as arquivo_dados_alunos_json:
@@ -23,7 +24,7 @@ def ra_aluno_existe(ra, dados_alunos):
 # Função para gerar um RA aleatório no formato especificado
 def gerar_ra_aleatorio():
     ra_prefixo = "ra"
-    ra_numero_aleatorio = ''.join([str(random.randint(0, 9)) for _ in range(7)])
+    ra_numero_aleatorio = ''.join([str(random.randint(0, 9)) for _ in range(3)])
     return f"{ra_prefixo}{ra_numero_aleatorio}"
 
 # Restante do seu código permanece inalterado
